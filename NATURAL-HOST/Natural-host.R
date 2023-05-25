@@ -1,6 +1,4 @@
-#!/usr/bin/env Rscript
-# setwd("C:/Users/Augustin Soulard/OneDrive - BIOTOPE/Personnel/R/Rmarkdown/Html_wiki")
-setwd("D:/OneDrive - BIOTOPE/Personnel/R/Rmarkdown/Html_wiki")
+setwd("C:/Users/MTDA-029/Documents/GitHub/BDD_FLORE_CONSTRUCT/ASOTHEQUE")
 
 library(xlsx)
 library(assertthat)
@@ -10,7 +8,7 @@ if(!require("rmarkdown")){
   
 library(knitr)
 # ASO = xlsx::read.xlsx("Asotheque.xlsx",1)
-ASO = xlsx::read.xlsx("D:/OneDrive - BIOTOPE/Personnel/R/Rmarkdown/Html_wiki/Asotheque.xlsx",1)
+ASO = xlsx::read.xlsx("Asotheque.xlsx",1)
 
 ASO = data.frame(lapply(ASO,factor))
 DPlink = function (x){
@@ -81,7 +79,7 @@ sink()
 close(con)
 
 #Test knit
-rmarkdown::render("Asotheque.Rmd",output_format = "html_document",output_file = "D:/OneDrive - BIOTOPE/Personnel/R/Rmarkdown/Html_wiki/Asotheque.html")
+rmarkdown::render("Asotheque.Rmd",output_format = "html_document",output_file = "Asotheque.html")
 
 
 # debug

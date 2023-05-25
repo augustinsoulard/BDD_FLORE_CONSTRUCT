@@ -1,0 +1,584 @@
+---
+title: "Asotheque v0.2"
+date: "`r Sys.Date()`"
+output:
+  html_document: 
+    toc: TRUE
+    toc_float: TRUE
+    theme: darkly
+    highlight: zenburn
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+``` 
+ 
+# Biodiversite {.tabset .tabset-fade .tabset-pills} 
+ 
+[Nature France]()<br>
+ 
+[Nature Océan Indien]()<br>
+ 
+<br>
+
+## Donnees naturalistes  {.tabset .tabset-fade}
+ 
+[Depobio]()<br>
+ 
+[INPN]()<br>
+ 
+[OpenObs]()<br>
+ 
+<br>
+
+### Mondial 
+ 
+[Biodiversity library]()<br>
+ 
+<br>
+
+#### IUCN : 
+ 
+[Accueil - Red list - IUCN]()<br>
+ 
+[Données spacial IUCN red list]()<br>
+ 
+<br>
+
+## Ecologie  {.tabset .tabset-fade}
+ 
+[EIVE 1.0]()<br>
+ 
+<br>
+
+## Faune  {.tabset .tabset-fade}
+ 
+[Faune Réunion]()<br>
+ 
+<br>
+
+### Insectes 
+ 
+[Insectarium La Réunion]()<br>
+ 
+[Insecte.org]()<br>
+ 
+<br>
+
+### Outils faune 
+ 
+[DeepFaune]()<br>
+ 
+<br>
+
+### Poissons 
+ 
+[Trombinoscope Jean-Marc Charel]()<br>
+ 
+<br>
+
+### Reptiles 
+ 
+[Nature Ocean Idien - Reptiles]()<br>
+ 
+<br>
+
+## Flore  {.tabset .tabset-fade}
+ 
+[Borbonica]()<br>
+ 
+[Mi aime a ou - Flore]()<br>
+ 
+[Plantnet Réunion]()<br>
+ 
+<br>
+
+### Bryophytes 
+ 
+[Bryophytes de France - La Réunion]()<br>
+ 
+<br>
+
+### Orchidées 
+ 
+[Orchidées Vandes]()<br>
+ 
+<br>
+
+### Outils flore 
+ 
+[API plantnet]()<br>
+ 
+[Glossaire botanique]()<br>
+ 
+[Herbier MNHN]()<br>
+ 
+[Plantnet identification la Réunion]()<br>
+ 
+[PlantUse]()<br>
+ 
+[Global Tree Search]()<br>
+ 
+<br>
+
+#### Outils Biotope : 
+ 
+[StatFlore]()<br>
+ 
+<br>
+
+### Sites complementaires 
+ 
+[Habiter la Reunion - Flore]()<br>
+ 
+[Plante botanique]()<br>
+ 
+[Plants of the world online]()<br>
+ 
+[PNR - flore]()<br>
+ 
+[Randopiton - Flore]()<br>
+ 
+[Thierry Niko 974]()<br>
+ 
+[Willyplante canalblog]()<br>
+ 
+[Zinvaziv]()<br>
+ 
+[Fleurs-fruits-feuilles-de.com]()<br>
+ 
+<br>
+
+## Gestion  {.tabset .tabset-fade}
+ 
+<br>
+
+### Restauration 
+ 
+[Notice choix arbre - Centre-Val de Loire]()<br>
+ 
+<br>
+
+## Habitats  {.tabset .tabset-fade}
+ 
+<br>
+
+### Phytosociologie 
+ 
+[La Phytosociologie synusiale intégrée. Guide méthodologique]()<br>
+ 
+[Site Guy Bouxin]()<br>
+ 
+<br>
+
+## Référentiel  {.tabset .tabset-fade}
+ 
+<br>
+
+### Taxref 
+ 
+[API Taxref]()<br>
+ 
+<br>
+
+## Regions  {.tabset .tabset-fade}
+ 
+<br>
+
+### Comores 
+ 
+[Comores online]()<br>
+ 
+<br>
+
+### Guyane 
+ 
+[Plantes rizières Guyane Cirad]()<br>
+ 
+# 
+ 
+ ------------------------------- 
+ 
+# Gestion & restauration {.tabset .tabset-fade .tabset-pills} 
+ 
+<br>
+
+## Flore  {.tabset .tabset-fade}
+ 
+[DAUPI]()<br>
+ 
+<br>
+
+### Mayotte 
+ 
+<br>
+
+#### Pépinière : 
+ 
+[Pépinière Mayotte de plans indigènes]()<br>
+ 
+# 
+ 
+ ------------------------------- 
+ 
+# Legislatif {.tabset .tabset-fade .tabset-pills} 
+ 
+<br>
+
+## Code de l'environnement  {.tabset .tabset-fade}
+ 
+[Code de l'environnement legifrance]()<br>
+ 
+# 
+ 
+ ------------------------------- 
+ 
+# Milieu dulcicole {.tabset .tabset-fade .tabset-pills} 
+ 
+[SDAGE 2022 - 2027]()<br>
+ 
+# 
+ 
+ ------------------------------- 
+ 
+# Milieu Marin {.tabset .tabset-fade .tabset-pills} 
+ 
+<br>
+
+## Acoustique  {.tabset .tabset-fade}
+ 
+[Lucy - Ocean Sonics Resources]()<br>
+ 
+<br>
+
+## Biodiversité  {.tabset .tabset-fade}
+ 
+<br>
+
+### Coraux 
+ 
+[Corals of the world]()<br>
+ 
+[Coraux de La Réunion - Univ]()<br>
+ 
+[Map mondial recif corallien]()<br>
+ 
+[Marine Ecological Research Management Aid]()<br>
+ 
+[NOAA Coral Reef Watch]()<br>
+ 
+<br>
+
+### Général 
+ 
+[BORBONICA]()<br>
+ 
+[WORMS]()<br>
+ 
+<br>
+
+### Poissons 
+ 
+[Fishbase]()<br>
+ 
+<br>
+
+## Conditions marines  {.tabset .tabset-fade}
+ 
+[Données stations météos]()<br>
+ 
+[Marées SHOM]()<br>
+ 
+[Pluviométrie]()<br>
+ 
+[Windy]()<br>
+ 
+<br>
+
+## Données milieu marin  {.tabset .tabset-fade}
+ 
+<br>
+
+### AUTRES 
+ 
+[Plateforme milieu marin France]()<br>
+ 
+<br>
+
+### IFREMER 
+ 
+[ATLAS DCE]()<br>
+ 
+[Sextant]()<br>
+ 
+[SURVAL]()<br>
+ 
+<br>
+
+### INPN 
+ 
+[Référentiel Habitats marins]()<br>
+ 
+<br>
+
+## NRL  {.tabset .tabset-fade}
+ 
+[Données CES6 Acoustique Direct]()<br>
+ 
+[SharePoint CES8]()<br>
+ 
+[Webcam NRL]()<br>
+ 
+<br>
+
+## SIG  {.tabset .tabset-fade}
+ 
+[Allen Coral Atlas]()<br>
+ 
+[Bathymétrie mondiale]()<br>
+ 
+[Carto ZEE Mondiale]()<br>
+ 
+[PeiGeo]()<br>
+ 
+<br>
+
+## Technique  {.tabset .tabset-fade}
+ 
+<br>
+
+### Hydrologie 
+ 
+[Protocole prélèvements hydro]()<br>
+ 
+<br>
+
+### Restauration coraux 
+ 
+[Coral Restauration Database]()<br>
+ 
+# 
+ 
+ ------------------------------- 
+ 
+# Outils {.tabset .tabset-fade .tabset-pills} 
+ 
+[Dictionnaire encyclopédique de la diversité biologique et de la conservation de la nature]()<br>
+ 
+<br>
+
+## Bibliographie  {.tabset .tabset-fade}
+ 
+[Documentation IRD]()<br>
+ 
+[Zenodo]()<br>
+ 
+<br>
+
+### Zotero 
+ 
+[Zotero Styles]()<br>
+ 
+<br>
+
+## Données  {.tabset .tabset-fade}
+ 
+[OpenAIRE]()<br>
+ 
+[Open data Réunion]()<br>
+ 
+<br>
+
+### SINP 
+ 
+[Extraction ISNP]()<br>
+ 
+<br>
+
+## Geomatique  {.tabset .tabset-fade}
+ 
+[Geoda Center]()<br>
+ 
+[Lizmap]()<br>
+ 
+[DicoGIS]()<br>
+ 
+<br>
+
+### Carte thématique 
+ 
+[Light pollution map]()<br>
+ 
+<br>
+
+### Composeur 
+ 
+<br>
+
+#### SVG : 
+ 
+[Svgsilh : Base de donnees de formes SVG]()<br>
+ 
+<br>
+
+### Plateforme 
+ 
+[Cadastre.gouv]()<br>
+ 
+[Eau France]()<br>
+ 
+[Geofoncier]()<br>
+ 
+[Géoservices IGN]()<br>
+ 
+[Geotribu]()<br>
+ 
+[IGN : remonter le temps]()<br>
+ 
+[PeiGeo]()<br>
+ 
+[Peps]()<br>
+ 
+[Risques naturels (PPR)]()<br>
+ 
+[Sandre Eau France]()<br>
+ 
+[DoGeo]()<br>
+ 
+[DoGeo projection]()<br>
+ 
+[Géo data gouv]()<br>
+ 
+<br>
+
+### Qfield 
+ 
+[Qfield]()<br>
+ 
+<br>
+
+### Qgis 
+ 
+<br>
+
+#### Tutoriel : 
+ 
+[Docs Qgis]()<br>
+ 
+[Naturagis]()<br>
+ 
+[Qgis tutirials]()<br>
+ 
+<br>
+
+## Methodologie  {.tabset .tabset-fade}
+ 
+<br>
+
+### Organisation 
+ 
+[Mutibao]()<br>
+ 
+<br>
+
+### Terrain 
+ 
+[Outils collecte information / suivi de biodiversite]()<br>
+ 
+<br>
+
+## News  {.tabset .tabset-fade}
+ 
+[Actu environnement]()<br>
+ 
+<br>
+
+## R  {.tabset .tabset-fade}
+ 
+<br>
+
+### Cartographie 
+ 
+[Rcarto]()<br>
+ 
+<br>
+
+### Cheatsheet 
+ 
+[ggplot 2]()<br>
+ 
+<br>
+
+### DiagrammR 
+ 
+[DiagrammR]()<br>
+ 
+[Doc DiagrammR]()<br>
+ 
+[Mermaid doc]()<br>
+ 
+[Mermaid editor]()<br>
+ 
+[Qastack Gantt charts with R]()<br>
+ 
+[Rstudio Graphviz and DiagrammR]()<br>
+ 
+<br>
+
+### R markdown 
+ 
+[Bookdown]()<br>
+ 
+[Cheatsheet Flextable]()<br>
+ 
+[Cookbook]()<br>
+ 
+[Flextable book]()<br>
+ 
+[Flextable David Gohel]()<br>
+ 
+[Flextable Gallery]()<br>
+ 
+[Lecon R markdown]()<br>
+ 
+[Markdown tables]()<br>
+ 
+<br>
+
+### Shiny 
+ 
+[Shiny example]()<br>
+ 
+[Shiny Rstudio tutorial]()<br>
+ 
+[Shiny sur serveur AWS]()<br>
+ 
+<br>
+
+### Tutoriel 
+ 
+[R pour statophobe]()<br>
+ 
+[Tuto R : stt4230]()<br>
+ 
+<br>
+
+## Taxonomie  {.tabset .tabset-fade}
+ 
+[Xper 3]()<br>
+ 
+# 
+ 
+ ------------------------------- 
+ 
+# Réglementaire {.tabset .tabset-fade .tabset-pills} 
+ 
+<br>
+
+## Risques  {.tabset .tabset-fade}
+ 
+[Géorisques]()<br>
+ 
+# 
+ 
+ ------------------------------- 
+ 
