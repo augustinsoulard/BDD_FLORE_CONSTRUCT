@@ -1,4 +1,5 @@
-setwd("C:/Users/MTDA-029/Documents/GitHub/BDD_FLORE_CONSTRUCT/ASOTHEQUE")
+# setwd("C:/Users/MTDA-029/Documents/GitHub/BDD_FLORE_CONSTRUCT/NATURAL-HOST")
+setwd("C:/Users/Augustin Soulard/Documents/Programmation/Github/BDD_FLORE_CONSTRUCT/NATURAL-HOST")
 
 library(xlsx)
 library(assertthat)
@@ -7,13 +8,13 @@ if(!require("rmarkdown")){
   require("rmarkdown")}
   
 library(knitr)
-# ASO = xlsx::read.xlsx("Asotheque.xlsx",1)
-ASO = xlsx::read.xlsx("Asotheque.xlsx",1)
+# ASO = xlsx::read.xlsx("Natural-host.xlsx",1)
+ASO = xlsx::read.xlsx("Natural-host.xlsx",1)
 
 ASO = data.frame(lapply(ASO,factor))
 DPlink = function (x){
   for(j in 1:nrow(x)){
-    cat("[",as.character(x$text[j]),"]","(",as.character(x$link[j]),")<br>","\n \n",sep = "")
+    cat("[",as.character(x$text[j]),"]","(",as.character(x$lien[j]),")<br>","\n \n",sep = "")
   }
 }
 
@@ -22,10 +23,10 @@ Xlevels = function(x){
   return(x)
 }
 
-con <- file("Asotheque.Rmd", open = "wt", encoding = "UTF-8")
+con <- file("Natural-host.Rmd", open = "wt", encoding = "UTF-8")
 sink(con,split=T)
 cat("---
-title: \"Asotheque v0.2\"
+title: \"Natural-host v0.3\"
 date: \"`r Sys.Date()`\"
 output:
   html_document: 
@@ -79,7 +80,7 @@ sink()
 close(con)
 
 #Test knit
-rmarkdown::render("Asotheque.Rmd",output_format = "html_document",output_file = "Asotheque.html")
+rmarkdown::render("Natural-host.Rmd",output_format = "html_document",output_file = "Natural-host.html")
 
 
 # debug
