@@ -32,7 +32,7 @@ output:
   html_document: 
     toc: TRUE
     toc_float: TRUE
-    theme: darkly
+    theme: flatly
     highlight: zenburn
 ---
 ```{r setup, include=FALSE}
@@ -70,10 +70,10 @@ for(i in 1:length(levels(ASO$Titre_1))){
         if(nrow(display)==0 || is.na(display[1,5])){}else{DPlink(display)}
         }
       }
-      
+      cat("\n \n ------------------------------- \n \n")
     }
   }
-  cat("# \n \n ------------------------------- \n \n")
+
 }
 
 sink()

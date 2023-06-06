@@ -5,32 +5,12 @@ output:
   html_document: 
     toc: TRUE
     toc_float: TRUE
-    theme: darkly
+    theme: flatly
     highlight: zenburn
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ``` 
- 
-# Association {.tabset .tabset-fade .tabset-pills} 
- 
-<br>
-
-## PACA  {.tabset .tabset-fade}
- 
-[LPO – FAUNE PACA](https://www.faune-paca.org/index.php?m_id=20006)<br>
- 
-[Agenda CEN PACA](https://cen-paca.org/participer/agenda/)<br>
- 
-<br>
-
-### Bouches-du-Rhônes (13) 
- 
-[Société Linnéenne de Provence](https://www.linneenne-provence.org/)<br>
- 
-# 
- 
- ------------------------------- 
  
 # Biodiversite {.tabset .tabset-fade .tabset-pills} 
  
@@ -38,13 +18,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Donnees naturalistes  {.tabset .tabset-fade}
  
+<br>
+
+### Application 
+ 
 [Découvrir la faune](https://www.decouvrirlafaune.fr/la-bibliotheque-du-naturaliste/)<br>
  
-[Depobio](https://depot-legal-biodiversite.naturefrance.fr/)<br>
- 
-[INPN](https://inpn.mnhn.fr/accueil/index)<br>
- 
 [OpenObs](https://openobs.mnhn.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -52,13 +36,33 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Explorer Xper 3](http://explorer.xper3.fr/accueil/)<br>
  
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Général 
+ 
+[Depobio](https://depot-legal-biodiversite.naturefrance.fr/)<br>
+ 
+[INPN](https://inpn.mnhn.fr/accueil/index)<br>
+ 
+[Le naturaliste](http://www.lenaturaliste.net/portail/index.php)<br>
+ 
+[Recolnat](https://www.recolnat.org/fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Mondial 
  
-[GBIF](https://www.gbif.org/)<br>
- 
 [Biodiversity library](https://www.biodiversitylibrary.org/)<br>
+ 
+[GBIF](https://www.gbif.org/)<br>
  
 <br>
 
@@ -68,19 +72,35 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Données spacial IUCN red list](https://www.iucnredlist.org/fr/resources/spatial-data-download)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Saisie 
  
+[Inaturalist](https://www.inaturalist.org/users/sign_in)<br>
+ 
 [OpenObs](https://openobs.mnhn.fr/)<br>
  
-[Inaturalist](https://www.inaturalist.org/users/sign_in)<br>
+
+ 
+ ------------------------------- 
  
 <br>
 
 ## Ecologie  {.tabset .tabset-fade}
  
+<br>
+
+### Plateforme 
+ 
 [EIVE 1.0](https://zenodo.org/record/7534792)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -88,9 +108,43 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Araignées 
+ 
+[Asfra](https://asfra.fr/)<br>
+ 
+[Piwigo Arachno](https://arachno.piwigo.com/index.php?/categories)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### Insectes 
  
+<br>
+
+#### Général : 
+ 
 [Insecte.org](https://www.insecte.org/)<br>
+ 
+[Insectes-net](https://www.insectes-net.fr/index.htm)<br>
+ 
+<br>
+
+#### Myrmécologie : 
+ 
+[Myrmecofourmis](https://www.myrmecofourmis.fr/)<br>
+ 
+<br>
+
+#### Orthoptères : 
+ 
+[ASCETE](https://ascete.org/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -102,17 +156,39 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Conchology](https://conchology.be/?t=1)<br>
  
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Oiseaux 
+ 
+[Oiseaux.net](https://www.oiseaux.net/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Outils faune 
  
 [DeepFaune](https://www.deepfaune.cnrs.fr/)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Poissons 
  
 [Trombinoscope Jean-Marc Charel](http://jean-marc.charel.pagesperso-orange.fr/p_trombinoscope.htm)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -130,6 +206,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Bryophytes de France - La Réunion](http://bryophytes-de-france.org/yeswiki/wakka.php?wiki=ReuNion)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Donnees 
@@ -140,17 +220,29 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Try](https://www.try-db.org/TryWeb/Home.php)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Orchidées 
  
 [Clef XPER 3 Orchidées de France](https://orchidees-france.identificationkey.org/mkey.html)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Outils flore 
  
 [API plantnet](https://my.plantnet.org/usage)<br>
+ 
+[Flore en Ligne](http://flore-en-ligne.fr/)<br>
+ 
+[Floristic](http://floristic.org/)<br>
  
 [Global Tree Search](https://tools.bgci.org/global_tree_search.php)<br>
  
@@ -161,6 +253,22 @@ knitr::opts_chunk$set(echo = TRUE)
 [Plantnet identification la Réunion](https://identify.plantnet.org/fr/reunion/identify)<br>
  
 [PlantUse](https://uses.plantnet-project.org/fr/Accueil)<br>
+ 
+[ThePlantGame](http://theplantgame.com/login/?next=/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Photo 
+ 
+[Photoflora](http://www.photoflora.fr/index.php)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -176,11 +284,17 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [PNR - flore](http://www.reunion-parcnational.fr/fr/des-connaissances/la-flore)<br>
  
+[Quelle est cette plante](https://www.quelleestcetteplante.fr/)<br>
+ 
 [Randopiton - Flore](https://biotope34.sharepoint.com/:x:/s/AgenceDOM/EZ0nw46o1alDiJI3R0F8wfMBjoZClH4kNUVeK2nsR_g-oA?e=LXpM6E)<br>
  
 [Thierry Niko 974](http://thierryniko974.over-blog.com/pages/A_LA_DECOUVERTE_DES_ORCHIDEES_DE_LA_REUNION-8836327.html)<br>
  
 [Willyplante canalblog](http://willyplante.canalblog.com/archives/endemique_et_indigene_/index.html)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -194,6 +308,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Lichen Go – Xper ](http://lichengo.identificationkey.org/mkey.html)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ## Gestion  {.tabset .tabset-fade}
@@ -204,13 +322,37 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Notice choix arbre - Centre-Val de Loire](https://cbnbp.mnhn.fr/cbnbp/ressources/telechargements/Notice_arbres_arbustes_CBNBP.pdf)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ## Habitats  {.tabset .tabset-fade}
  
+[Habitats-naturels.info](http://habitats-naturels.info/)<br>
+ 
+<br>
+
+### Carhab 
+ 
 [CarHab INPN](https://inpn.mnhn.fr/programme/carhab)<br>
  
-[Habitats-naturels.info](http://habitats-naturels.info/)<br>
+[Visualisateur Carhab](https://inpn.mnhn.fr/viewer-carto/CarHab/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Natura 2000 
+ 
+[Evaluation de l'état de conservation](https://inpn.mnhn.fr/telechargement/documentation/natura2000/evaluation)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -226,6 +368,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Florass par RoZo](http://florass.zoom-ecologue.com/index.php)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ## Plateforme  {.tabset .tabset-fade}
@@ -233,6 +379,16 @@ knitr::opts_chunk$set(echo = TRUE)
 [Nature France](https://naturefrance.fr/)<br>
  
 [Nature Océan Indien](https://natureoceanindien.org/)<br>
+ 
+<br>
+
+### Sciences participatives 
+ 
+[Participae](http://www.particitae.upmc.fr/fr/index.html)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -244,7 +400,7 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [API Taxref](https://taxref.mnhn.fr/taxref-web/api/doc)<br>
  
-# 
+
  
  ------------------------------- 
  
@@ -262,19 +418,7 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Réseau zone humide](http://sig.reseau-zones-humides.org/)<br>
  
-# 
- 
- ------------------------------- 
- 
-# Legislatif {.tabset .tabset-fade .tabset-pills} 
- 
-<br>
 
-## Code de l'environnement  {.tabset .tabset-fade}
- 
-[Code de l'environnement legifrance](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000006108631/#LEGISCTA000006108631)<br>
- 
-# 
  
  ------------------------------- 
  
@@ -296,6 +440,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Zotero Styles](https://www.zotero.org/styles)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ## Données  {.tabset .tabset-fade}
@@ -309,6 +457,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ### SINP 
  
 [Extraction ISNP](https://framaforms.org/formulaire-de-demande-dacces-aux-donnees-du-sinp-974-1485242721)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -326,6 +478,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Light pollution map](https://lighttrends.lightpollutionmap.info/#zoom=0&lon=32.89298&lat=20.63642)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Composeur 
@@ -335,6 +491,10 @@ knitr::opts_chunk$set(echo = TRUE)
 #### SVG : 
  
 [Svgsilh : Base de donnees de formes SVG](https://svgsilh.com/fr/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -368,11 +528,19 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Sandre Eau France](https://www.sandre.eaufrance.fr/atlas/srv/fre/catalog.search#/home)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Qfield 
  
 [Qfield](https://qfield.org/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -388,6 +556,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Qgis tutirials](http://www.qgistutorials.com/fr/index.html)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ## Methodologie  {.tabset .tabset-fade}
@@ -398,25 +570,47 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Mutibao](http://www.multibao.org/)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Terrain 
  
 [Outils collecte information / suivi de biodiversite](https://professionnels.ofb.fr/sites/default/files/pdf/documentation/TIC2015_CENLR-CENPACA-FONEXP-CNRS-CEFE-outils_nomades.pdf)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ## News  {.tabset .tabset-fade}
- 
-[Actu environnement](https://www.actu-environnement.com/)<br>
  
 <br>
 
 ### Emplois 
  
+[Emploi-territorial](https://www.emploi-territorial.fr/)<br>
+ 
 [Réseau TEE](https://www.reseau-tee.net/)<br>
  
-[Emploi-territorial](https://www.emploi-territorial.fr/)<br>
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Media 
+ 
+[Actu environnement](https://www.actu-environnement.com/)<br>
+ 
+[Conservation Nature](https://www.conservation-nature.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -428,11 +622,19 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Rcarto](https://rcarto.github.io/carto_avec_r/)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Cheatsheet 
  
 [ggplot 2](https://thinkr.fr/pdf/ggplot2-french-cheatsheet.pdf)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -449,6 +651,10 @@ knitr::opts_chunk$set(echo = TRUE)
 [Qastack Gantt charts with R](https://qastack.fr/programming/3550341/gantt-charts-with-r)<br>
  
 [Rstudio Graphviz and DiagrammR](https://www.rstudio.com/blog/rstudio-v0-99-preview-graphviz-and-diagrammer/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -470,6 +676,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Markdown tables](https://www.tablesgenerator.com/markdown_tables)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Shiny 
@@ -480,11 +690,19 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Shiny sur serveur AWS](https://www.charlesbordet.com/fr/guide-shiny-aws/#a-quoi-s-attendre-dans-ce-guide)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Statistiques 
  
 [Tidymodel](https://www.tidymodels.org/learn/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -493,6 +711,10 @@ knitr::opts_chunk$set(echo = TRUE)
 [R pour statophobe](https://perso.univ-rennes1.fr/denis.poinsot/Statistiques_%20pour_statophobes/R%20pour%20les%20statophobes.pdf)<br>
  
 [Tuto R : stt4230](https://stt4230.rbind.io/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -506,6 +728,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [You](https://you.com/)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ## Taxonomie  {.tabset .tabset-fade}
@@ -518,7 +744,21 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Taxref-match](https://taxref.mnhn.fr/taxref-match/taxrefmatch/import)<br>
  
-# 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Vulgarisation  {.tabset .tabset-fade}
+ 
+<br>
+
+### ONF 
+ 
+[La forêt méditerranéenne vue par un écureuil](https://www.onf.fr/vivre-la-foret/+/add::la-foret-mediterraneene-en-image.html)<br>
+ 
+
  
  ------------------------------- 
  
@@ -526,15 +766,59 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+## Auvergne  {.tabset .tabset-fade}
+ 
+<br>
+
+### Blog 
+ 
+[Photos araignées, insectes, fleurs](https://auvergne-fleurs-insectes-araignees.blogspot.com/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Belgique  {.tabset .tabset-fade}
+ 
+<br>
+
+### Flore 
+ 
+[Biodiversité Wallonie](http://biodiversite.wallonie.be/fr/accueil.html?IDC=6)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ## Comores  {.tabset .tabset-fade}
  
 [Comores online](http://www.comores-online.com/mwezinet/nature/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
 ## Guyane  {.tabset .tabset-fade}
  
 [Plantes rizières Guyane Cirad](http://plantes-rizieres-guyane.cirad.fr/generalites)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -550,6 +834,56 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Pépinière Mayotte de plans indigènes](http://www.achats-responsables-mayotte.org/structure/pot-concept/)<br>
  
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Occitanie  {.tabset .tabset-fade}
+ 
+<br>
+
+### Flore 
+ 
+<br>
+
+#### Pyrénées : 
+ 
+[NA](http://www.lafloredespyrenees.fr/pagefamille.html)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Général 
+ 
+[Afleurdepau](http://www.afleurdepau.com/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## PACA  {.tabset .tabset-fade}
+ 
+<br>
+
+### Alpes-de-Haute-Provence 
+ 
+<br>
+
+#### Flore : 
+ 
+[Atlas Flore 04](https://www.atlasflore04.org/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ## Réunion  {.tabset .tabset-fade}
@@ -560,11 +894,19 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [StatFlore](https://biotopeoi.shinyapps.io/statfore/)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Eau 
  
 [SDAGE 2022 - 2027](http://www.comite-eau-biodiversite-reunion.fr/le-sdage-2022-2027-est-adopte-a207.html)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -584,6 +926,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Mollusque de l’île de la Réunion](http://vieoceane.free.fr/mollusques/intro_mollusque.htm)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Flore 
@@ -596,6 +942,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Orchidées Vandes](http://orchidees.vandes.com/)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Gestion & restauration 
@@ -605,6 +955,10 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Flore : 
  
 [DAUPI](https://daupi.cbnm.org/)<br>
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -682,13 +1036,17 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Protocole prélèvements hydro](https://prelevements-hydro.ifremer.fr/presentation.html)<br>
  
+
+ 
+ ------------------------------- 
+ 
 <br>
 
 ### Reptiles 
  
 [Nature Ocean Idien - Reptiles](https://natureoceanindien.org/Reptiles-reunion/)<br>
  
-# 
+
  
  ------------------------------- 
  
@@ -696,11 +1054,95 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+## Legislatif  {.tabset .tabset-fade}
+ 
+<br>
+
+### Code de l'environnement 
+ 
+[Code de l'environnement legifrance](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000006108631/#LEGISCTA000006108631)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ## Risques  {.tabset .tabset-fade}
  
 [Géorisques](https://www.georisques.gouv.fr/)<br>
  
-# 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+# Structure {.tabset .tabset-fade .tabset-pills} 
+ 
+<br>
+
+## Association  {.tabset .tabset-fade}
+ 
+<br>
+
+### PACA 
+ 
+[Agenda CEN PACA](https://cen-paca.org/participer/agenda/)<br>
+ 
+[LPO – FAUNE PACA](https://www.faune-paca.org/index.php?m_id=20006)<br>
+ 
+<br>
+
+#### Bouches-du-Rhônes (13) : 
+ 
+[Société Linnéenne de Provence](https://www.linneenne-provence.org/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Bureau d'étude  {.tabset .tabset-fade}
+ 
+<br>
+
+### MTDA 
+ 
+[Agence MTDA](https://www.mtda.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## CBN  {.tabset .tabset-fade}
+ 
+<br>
+
+### Documents 
+ 
+[CBN Massif Central](https://portail-documentaire.cbnmc.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## DREAL  {.tabset .tabset-fade}
+ 
+<br>
+
+### PACA 
+ 
+[DREAL PACA](https://www.paca.developpement-durable.gouv.fr/thematiques-r3158.html)<br>
+ 
+
  
  ------------------------------- 
  
