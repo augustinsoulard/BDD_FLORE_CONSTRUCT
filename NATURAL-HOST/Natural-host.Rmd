@@ -104,6 +104,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Général : 
  
+[Wild World](https://u-g-o.jimdofree.com/)<br>
+ 
 [Zoom-nature](https://www.zoom-nature.fr/)<br>
  
 
@@ -392,21 +394,19 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-### Bryophytes 
- 
-[Bryophytes de France - La Réunion](http://bryophytes-de-france.org/yeswiki/wakka.php?wiki=ReuNion)<br>
- 
-
- 
- ------------------------------- 
- 
-
- 
- ------------------------------- 
+### Donnees 
  
 <br>
 
-### Donnees 
+#### Comestible : 
+ 
+[Edible Plant Database](https://discovery.dundee.ac.uk/en/datasets/edible-plant-database)<br>
+ 
+<br>
+
+#### Général : 
+ 
+[Boite à outil – Le Plantoscope](https://leplantoscope.fr/2021/03/21/decouvrir-les-plantes-une-boite-a-outils/#:~:text=Le%20site%20Wikiphyto%2C%20qui%20recense%20les%20usages%20m%C3%A9dicinaux,anglais%2C%20la%20base%20de%20donn%C3%A9es%20de%20la%20FDA.)<br>
  
 <br>
 
@@ -424,9 +424,15 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-### Orchidées 
+### Général 
  
-[Clef XPER 3 Orchidées de France](https://orchidees-france.identificationkey.org/mkey.html)<br>
+[FloreAlpes](https://www.florealpes.com/)<br>
+ 
+[Préservons la nature](https://www.preservons-la-nature.fr/)<br>
+ 
+[Sysbio – Plante](http://sysbio.univ-lille1.fr/fiches/plantae)<br>
+ 
+[Tela-botanica](https://www.tela-botanica.org/)<br>
  
 
  
@@ -441,6 +447,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Outils flore 
  
 [API plantnet](https://my.plantnet.org/usage)<br>
+ 
+[E-FLORA-sys](https://eflorasys.univ-lorraine.fr/index.php/fr/pages/display/liens)<br>
  
 [Flore en Ligne](http://flore-en-ligne.fr/)<br>
  
@@ -457,6 +465,70 @@ knitr::opts_chunk$set(echo = TRUE)
 [PlantUse](https://uses.plantnet-project.org/fr/Accueil)<br>
  
 [ThePlantGame](http://theplantgame.com/login/?next=/)<br>
+ 
+<br>
+
+#### Analyse : 
+ 
+[Quantitative Plant](https://www.quantitative-plant.org/)<br>
+ 
+<br>
+
+#### Bibliographie : 
+ 
+[Global Plants](https://plants.jstor.org/)<br>
+ 
+[Le trésor de Rémi](https://drive.google.com/drive/folders/15u20P811OIrJzR2eNkAIrRjUhS9e9bd8?usp=sharing)<br>
+ 
+<br>
+
+#### Formation : 
+ 
+[Biologie végétale – UCLouvain](https://biologievegetale.be/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Par groupe 
+ 
+<br>
+
+#### Bryophytes : 
+ 
+[Bryophytes de France - La Réunion](http://bryophytes-de-france.org/yeswiki/wakka.php?wiki=ReuNion)<br>
+ 
+<br>
+
+#### Orchidaceae : 
+ 
+[Clef XPER 3 Orchidées de France](https://orchidees-france.identificationkey.org/mkey.html)<br>
+ 
+[Orchidées en France – durbphil](http://perso.numericable.fr/~durbphil/Ouv2&Listalpha&Pres/sitorchidouv2.htm)<br>
+ 
+[Orchidées Nature](https://www.elisajeanluc.fr/orchidees_nature/index.htm)<br>
+ 
+[Orchids of Britain and Europe](http://www.orchidsofbritainandeurope.co.uk/)<br>
+ 
+[SFO-PCV Société Française d'Orchidophilie de Poitou-Charentes et Vendée](http://www.orchidee-poitou-charentes.org/spip.php?rubrique155)<br>
+ 
+<br>
+
+#### Orobanchaceae : 
+ 
+[Clef Xper 3 des Orobanchaceae des Bouches-du-Rhône](https://www.xper3.fr/xper3GeneratedFiles/publish/identification/-4433262835638514473/mkey.html)<br>
+ 
+<br>
+
+#### Poaceae : 
+ 
+[Botarela](https://botarela.fr/)<br>
  
 
  
@@ -488,11 +560,15 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Habiter la Reunion - Flore](https://habiter-la-reunion.re/la-flore-de-la-reunion/)<br>
  
+[L’herbier en image – Pierre Goujon](https://abiris.snv.jussieu.fr/flore/herbier.php)<br>
+ 
 [Plante botanique](https://www.plantes-botanique.org/)<br>
  
 [Plants of the world online](http://www.plantsoftheworldonline.org/)<br>
  
 [PNR - flore](http://www.reunion-parcnational.fr/fr/des-connaissances/la-flore)<br>
+ 
+[Quelle est cette plante](https://quelle-est-cette-fleur.com/)<br>
  
 [Quelle est cette plante](https://www.quelleestcetteplante.fr/)<br>
  
@@ -501,6 +577,52 @@ knitr::opts_chunk$set(echo = TRUE)
 [Thierry Niko 974](http://thierryniko974.over-blog.com/pages/A_LA_DECOUVERTE_DES_ORCHIDEES_DE_LA_REUNION-8836327.html)<br>
  
 [Willyplante canalblog](http://willyplante.canalblog.com/archives/endemique_et_indigene_/index.html)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Taxonomie 
+ 
+<br>
+
+#### Flore : 
+ 
+[International Plant Names Index](https://www.ipni.org/)<br>
+ 
+[The Plant List](http://www.theplantlist.org/)<br>
+ 
+[World Flora Online](http://www.worldfloraonline.org/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Usages 
+ 
+<br>
+
+#### Général : 
+ 
+[Floranet : Identification de plantes médicinales et toxiques](https://floranet.pagesperso-orange.fr/)<br>
+ 
+[Plant for a futur](https://pfaf.org/user/Default.aspx)<br>
+ 
+[PlantUse](https://uses.plantnet-project.org/fr/Accueil)<br>
+ 
+[WikiPhyto](http://www.wikiphyto.org/wiki/Accueil)<br>
  
 
  
@@ -570,6 +692,20 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Général 
+ 
+[Cahier technique des espaces naturels](http://cahiers-techniques.espaces-naturels.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### Restauration 
  
 [Notice choix arbre - Centre-Val de Loire](https://cbnbp.mnhn.fr/cbnbp/ressources/telechargements/Notice_arbres_arbustes_CBNBP.pdf)<br>
@@ -610,7 +746,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Général : 
  
+[Center for Fresjwater Biology](http://cfb.unh.edu/)<br>
+ 
 [Freshwaterecology.info](https://www.freshwaterecology.info/)<br>
+ 
+<br>
+
+#### Plancton : 
+ 
+[Drive Plancton](https://drive.google.com/drive/u/2/folders/1gceOL5zb71uW0P9YylBLIdrEteCAD8Qg)<br>
  
 
  
@@ -731,6 +875,12 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 ### Sciences participatives 
+ 
+<br>
+
+#### Flore : 
+ 
+[Herbonautes](http://lesherbonautes.mnhn.fr/)<br>
  
 <br>
 
@@ -1090,6 +1240,20 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Flore 
+ 
+[Le Plantoscope](https://leplantoscope.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### Media 
  
 [Actu environnement](https://www.actu-environnement.com/)<br>
@@ -1248,6 +1412,8 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [You](https://you.com/)<br>
  
+[NA](https://www.futurepedia.io/)<br>
+ 
 
  
  ------------------------------- 
@@ -1358,6 +1524,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+#### Flore : 
+ 
+[Le chemin de la nature](https://www.youtube.com/c/LeChemindelaNature-LaCha%C3%AEne)<br>
+ 
+<br>
+
 #### Général : 
  
 [Augustin Soulard – Youtube](https://www.youtube.com/@augustinsoulard)<br>
@@ -1387,6 +1559,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Flore 
  
 [Biodiversité Wallonie](http://biodiversite.wallonie.be/fr/accueil.html?IDC=6)<br>
+ 
+[L’herbier en image – Belgique](https://www.herbierimages.be/)<br>
  
 
  
@@ -2044,13 +2218,33 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-### occitanie 
+### Général 
+ 
+[Carte Naturalistes des Terres](https://naturalistesdesterres.gogocarto.fr/map#/carte/@47.36,2.65,5z?cat=all)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Occitanie 
  
 <br>
 
 #### Général : 
  
 [Natureo](https://www.natureo.org/)<br>
+ 
+<br>
+
+#### SBOCC : 
+ 
+[Calendrier SBOCC](https://sbocc.fr/calendrier/)<br>
  
 
  
@@ -2120,6 +2314,20 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Général 
+ 
+[CBN Alpin](https://www.cbn-alpin.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ## DREAL  {.tabset .tabset-fade}
  
 <br>
@@ -2127,6 +2335,28 @@ knitr::opts_chunk$set(echo = TRUE)
 ### PACA 
  
 [DREAL PACA](https://www.paca.developpement-durable.gouv.fr/thematiques-r3158.html)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Réserve  {.tabset .tabset-fade}
+ 
+<br>
+
+### PACA 
+ 
+<br>
+
+#### Bouches-du-Rhônes (13) : 
+ 
+[La Tour du Valat](https://tourduvalat.centredoc.fr/)<br>
  
 
  

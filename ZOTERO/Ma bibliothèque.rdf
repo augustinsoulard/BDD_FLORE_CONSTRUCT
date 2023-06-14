@@ -26312,6 +26312,338 @@ et de ses milieux aquatiques associés</dcterms:abstract>
         <dc:title>Ozneda et Clauzade - 1970 - Les Lichens - étude biologique et flore illustrée.pdf</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <bib:Book rdf:about="https://bibdigital.rjb.csic.es">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bonnier</foaf:surname>
+                        <foaf:givenName>Gaston</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>De Layens</foaf:surname>
+                        <foaf:givenName>G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2582"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://bibdigital.rjb.csic.es</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>23/11/1992</dc:date>
+        <dcterms:dateSubmitted>2023-06-14 17:37:23</dcterms:dateSubmitted>
+        <z:language>es</z:language>
+        <dc:title>Flore complète portative de la France et de la Suisse</dc:title>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_2582">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://bibdigital.rjb.csic.es/viewer/12037/?offset=#page=1&amp;viewer=picture&amp;o=bookmark&amp;n=0&amp;q=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-14 17:37:32</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://bryophytes-de-france.org/fichiers/Livret_Bryologie_MNHN_Natureparif.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leblond</foaf:surname>
+                        <foaf:givenName>Sébastien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Boucher</foaf:surname>
+                        <foaf:givenName>Anabelle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2583"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://bryophytes-de-france.org/fichiers/Livret_Bryologie_MNHN_Natureparif.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dc:title>INITIATION À LA BRYOLOGIE</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_2583">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://bryophytes-de-france.org/fichiers/Livret_Bryologie_MNHN_Natureparif.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-14 17:42:23</dcterms:dateSubmitted>
+        <dc:title>Leblond et Boucher - INITIATION À LA BRYOLOGIE.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-2-8277-0129-2">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Publication hors-série</dc:title>
+                <dc:identifier>no. 14</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Genève</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Conservatoire et jardin botaniques de la ville de Genève</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burgisser</foaf:surname>
+                        <foaf:givenName>Laurent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cailliau</foaf:surname>
+                        <foaf:givenName>Ariane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Conservatoire et jardin botaniques de la ville de Genève</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <link:link rdf:resource="#item_2585"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Bryophytes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Endangered plants</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Switzerland Geneva (Canton)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.naturalistes-romands.ch/documents/lr_bryo_reduit.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-2-8277-0129-2</dc:identifier>
+        <dc:date>2012</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>QK86.S9 B87 2012</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>OCLC: ocn847534033</dc:description>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dc:title>Les mousses: liste rouge, inventaire et initation aux bryophytes du canton de Genève</dc:title>
+        <z:shortTitle>Les mousses</z:shortTitle>
+        <z:numPages>167</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_2585">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.naturalistes-romands.ch/documents/lr_bryo_reduit.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-14 17:43:14</dcterms:dateSubmitted>
+        <dc:title>Burgisser et Cailliau - 2012 - Les mousses liste rouge, inventaire et initation .pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="#item_2588">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Publication hors-série</dc:title>
+                <dc:identifier>no. 14</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Genève</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Conservatoire et jardin botaniques de la ville de Genève</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burgisser</foaf:surname>
+                        <foaf:givenName>Laurent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cailliau</foaf:surname>
+                        <foaf:givenName>Ariane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Conservatoire et jardin botaniques de la ville de Genève</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <link:link rdf:resource="#item_2587"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Bryophytes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Endangered plants</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Switzerland Geneva (Canton)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>ISBN 978-2-8277-0129-2</dc:identifier>
+        <dc:date>2012</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>QK86.S9 B87 2012</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>OCLC: ocn847534033</dc:description>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dc:title>Les mousses: liste rouge, inventaire et initation aux bryophytes du canton de Genève</dc:title>
+        <z:shortTitle>Les mousses</z:shortTitle>
+        <z:numPages>167</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_2587">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.naturalistes-romands.ch/documents/lr_bryo_reduit.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-14 17:43:48</dcterms:dateSubmitted>
+        <dc:title>Burgisser et Cailliau - 2012 - Les mousses liste rouge, inventaire et initation .pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="#item_2590">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+                <dc:title>Publication hors-série</dc:title>
+                <dc:identifier>no. 14</dc:identifier>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Genève</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Conservatoire et jardin botaniques de la ville de Genève</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burgisser</foaf:surname>
+                        <foaf:givenName>Laurent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cailliau</foaf:surname>
+                        <foaf:givenName>Ariane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Conservatoire et jardin botaniques de la ville de Genève</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <link:link rdf:resource="#item_2589"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Bryophytes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Endangered plants</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Switzerland Geneva (Canton)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>ISBN 978-2-8277-0129-2</dc:identifier>
+        <dc:date>2012</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>QK86.S9 B87 2012</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>OCLC: ocn847534033</dc:description>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dc:title>Les mousses: liste rouge, inventaire et initation aux bryophytes du canton de Genève</dc:title>
+        <z:shortTitle>Les mousses</z:shortTitle>
+        <z:numPages>167</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_2589">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.naturalistes-romands.ch/documents/lr_bryo_reduit.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-06-14 17:44:01</dcterms:dateSubmitted>
+        <dc:title>Burgisser et Cailliau - 2012 - Les mousses liste rouge, inventaire et initation .pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Collection rdf:about="#collection_68">
         <dc:title>Biological invasion</dc:title>
         <dcterms:hasPart rdf:resource="#collection_54"/>
@@ -26434,6 +26766,7 @@ et de ses milieux aquatiques associés</dcterms:abstract>
     <z:Collection rdf:about="#collection_126">
         <dc:title>FLORE</dc:title>
         <dcterms:hasPart rdf:resource="#collection_141"/>
+        <dcterms:hasPart rdf:resource="#collection_157"/>
         <dcterms:hasPart rdf:resource="#collection_128"/>
         <dcterms:hasPart rdf:resource="#collection_137"/>
         <dcterms:hasPart rdf:resource="#collection_136"/>
@@ -26446,12 +26779,20 @@ et de ses milieux aquatiques associés</dcterms:abstract>
         <dcterms:hasPart rdf:resource="https://www.paca.developpement-durable.gouv.fr/IMG/pdf/_2_flore_tot_cle786135.pdf"/>
         <dcterms:hasPart rdf:resource="#item_2450"/>
     </z:Collection>
+    <z:Collection rdf:about="#collection_157">
+        <dc:title>Bryophytes</dc:title>
+        <dcterms:hasPart rdf:resource="http://bryophytes-de-france.org/fichiers/Livret_Bryologie_MNHN_Natureparif.pdf"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-2-8277-0129-2"/>
+        <dcterms:hasPart rdf:resource="#item_2588"/>
+        <dcterms:hasPart rdf:resource="#item_2590"/>
+    </z:Collection>
     <z:Collection rdf:about="#collection_128">
         <dc:title>Clef d'identification</dc:title>
         <dcterms:hasPart rdf:resource="https://portail-documentaire.cbnmc.fr/doc_num.php?explnum_id=6272"/>
         <dcterms:hasPart rdf:resource="http://cbnfc-ori.org/sites/cbnfc-ori.org/files/documentaton/files/486_cle-achemilles_floravogesiaca_2022_web6_0.pdf"/>
         <dcterms:hasPart rdf:resource="http://www.societequebecoisedebryologie.org/documents/Bryophytes_sl_glossaire_illustre_Leica_Chavoutier.pdf"/>
         <dcterms:hasPart rdf:resource="#item_2455"/>
+        <dcterms:hasPart rdf:resource="https://bibdigital.rjb.csic.es"/>
     </z:Collection>
     <z:Collection rdf:about="#collection_137">
        <dc:title>EEE</dc:title><dcterms:hasPart rdf:resource="#item_2465"/>
