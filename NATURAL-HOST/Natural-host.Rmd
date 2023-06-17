@@ -26,6 +26,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Flore : 
  
+[KIT BOTA QFIELD ](https://github.com/augustinsoulard/KIT_BOTA_QFIELD)<br>
+ 
 [PlantNet ](https://plantnet.org/en/)<br>
  
 <br>
@@ -133,6 +135,8 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Général : 
  
 [IdigBio](https://www.idigbio.org/)<br>
+ 
+[Natural History Museum – UK](https://data.nhm.ac.uk/)<br>
  
 <br>
 
@@ -258,6 +262,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+#### Coléoptères : 
+ 
+[Kerbtier.de](https://www.kerbtier.de/)<br>
+ 
+<br>
+
 #### Général : 
  
 [Aramel.free](http://aramel.free.fr/)<br>
@@ -265,6 +275,8 @@ knitr::opts_chunk$set(echo = TRUE)
 [Insecte.org](https://www.insecte.org/)<br>
  
 [Insectes-net](https://www.insectes-net.fr/index.htm)<br>
+ 
+[Mike’s Insect Keys](https://sites.google.com/view/mikes-insect-keys)<br>
  
 [Monde des minuscules](https://mondedesminuscules.fr/)<br>
  
@@ -414,6 +426,8 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Edible Plant Database](https://discovery.dundee.ac.uk/en/datasets/edible-plant-database)<br>
  
+[La garrigue gourmande](https://garrigue-gourmande.fr/index.php?option=com_content&view=featured&Itemid=99)<br>
+ 
 <br>
 
 #### Général : 
@@ -423,6 +437,14 @@ knitr::opts_chunk$set(echo = TRUE)
 [European Vegetation Survey](https://euroveg.org/eva-database/databases)<br>
  
 [FloraVeg.EU](https://floraveg.eu/download/)<br>
+ 
+[Siflore](https://siflore.fcbn.fr/?cd_ref=&r=metro)<br>
+ 
+<br>
+
+#### Référentiel : 
+ 
+[Référentiels taxonomiques – Tela botanica](https://referentiels.tela-botanica.org/referentiel/index.php?module=Accueil)<br>
  
 <br>
 
@@ -469,6 +491,8 @@ knitr::opts_chunk$set(echo = TRUE)
 [Plantes Botanique](https://www.plantes-botanique.org/)<br>
  
 [Plants of the world online](https://powo.science.kew.org/)<br>
+ 
+[World Flora Online](http://www.worldfloraonline.org/)<br>
  
 <br>
 
@@ -530,6 +554,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+#### Général : 
+ 
+[Floristic](http://floristic.org/)<br>
+ 
+<br>
+
 #### Identification : 
  
 [Clef des sauvages de ma rue](https://vigienature.openkeys.science/sauvage/?state=[]&tab=keys)<br>
@@ -580,19 +610,11 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Botarela](https://botarela.fr/)<br>
  
-
- 
- ------------------------------- 
- 
-
- 
- ------------------------------- 
- 
 <br>
 
-### Photo 
+#### Solanaceae : 
  
-[Photoflora](http://www.photoflora.fr/index.php)<br>
+[Solanaceae Source](https://solanaceaesource.myspecies.info/)<br>
  
 
  
@@ -625,6 +647,26 @@ knitr::opts_chunk$set(echo = TRUE)
 [Thierry Niko 974](http://thierryniko974.over-blog.com/pages/A_LA_DECOUVERTE_DES_ORCHIDEES_DE_LA_REUNION-8836327.html)<br>
  
 [Willyplante canalblog](http://willyplante.canalblog.com/archives/endemique_et_indigene_/index.html)<br>
+ 
+<br>
+
+#### Biologie végétale : 
+ 
+[Sorbonne – Ressources numériques](https://rnbio.sorbonne-universite.fr/bio-veg_accueil)<br>
+ 
+<br>
+
+#### Général : 
+ 
+[Botaplus](https://www.botaplus.fr/botaflore/bonnier_mt.htm)<br>
+ 
+[Société Botanique de France](https://societebotaniquedefrance.fr/)<br>
+ 
+<br>
+
+#### Photo : 
+ 
+[Photoflora](http://www.photoflora.fr/index.php)<br>
  
 
  
@@ -714,17 +756,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Lichen 
  
+<br>
+
+#### Général : 
+ 
+[Association française de Lichénologie](https://www.afl-lichenologie.fr/)<br>
+ 
 [Lichen d’italie](https://italic.units.it/flora/index.php?procedure=ext_key_home&key_id=9352)<br>
  
 [Lichen Go – Tela-botanica](https://www.tela-botanica.org/projets/lichens-go/)<br>
  
 [Lichen Go – Xper ](http://lichengo.identificationkey.org/mkey.html)<br>
  
-<br>
-
-#### Général : 
- 
-[Association française de Lichénologie](https://www.afl-lichenologie.fr/)<br>
+[lichenologue.org](http://www.lichenologue.org/fr/index.php)<br>
  
 
  
@@ -904,6 +948,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Florass par RoZo](http://florass.zoom-ecologue.com/index.php)<br>
  
+<br>
+
+#### Référentiel : 
+ 
+[eVeg](https://www.e-veg.net/accueil)<br>
+ 
 
  
  ------------------------------- 
@@ -981,6 +1031,8 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Flore : 
  
 [Herbonautes](http://lesherbonautes.mnhn.fr/)<br>
+ 
+[Mission Flore](https://www.tela-botanica.org/mission/)<br>
  
 <br>
 
@@ -1170,6 +1222,20 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Indicateur 
+ 
+[Indicateurs ONB](https://naturefrance.fr/indicateurs?fulltext=)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### SINP 
  
 [Extraction ISNP](https://framaforms.org/formulaire-de-demande-dacces-aux-donnees-du-sinp-974-1485242721)<br>
@@ -1285,6 +1351,12 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Données : 
  
 [Geonature](https://geonature.fr/)<br>
+ 
+<br>
+
+#### N2000 : 
+ 
+[Carte Natura 2000](https://www.natura2000.fr/carte-natura-2000)<br>
  
 
  
@@ -2076,6 +2148,24 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Bouches-du-Rhône 
+ 
+<br>
+
+#### Flore : 
+ 
+[Etienne Aspord](http://etienne.aspord.free.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ## Réunion  {.tabset .tabset-fade}
  
 <br>
@@ -2113,6 +2203,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Faune 
  
 [Faune Réunion](https://www.faune-reunion.fr/index.php?m_id=1#)<br>
+ 
+<br>
+
+#### Général : 
+ 
+[Mi aime a ou – Faune](https://www.mi-aime-a-ou.com/faune_ile_reunion.php)<br>
  
 <br>
 
@@ -2192,11 +2288,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Biodiversité : 
  
+[Biodiversité marine des lagons de La Réunion – wikipédia](https://fr.wikipedia.org/wiki/Biodiversit%C3%A9_marine_des_lagons_de_La_R%C3%A9union)<br>
+ 
 [BORBONICA](https://www.borbonica.re/)<br>
  
 [Corals of the world](http://www.coralsoftheworld.org/page/home/)<br>
  
 [Coraux de La Réunion - Univ](http://coraux.univ-reunion.fr/spip.php?article35)<br>
+ 
+[Crustacées de la Réunion](https://horizon.documentation.ird.fr/exl-doc/pleins_textes/ed-09-10/010050352.pdf)<br>
  
 [Fishbase](https://www.fishbase.se/search.php)<br>
  
@@ -2440,6 +2540,13 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+#### Ecologues : 
+ 
+[Association Française Interprofessionnelle des Ecologues
+](https://afie-asso.fr/?article1)<br>
+ 
+<br>
+
 #### Général : 
  
 [Aspas-nature](https://www.aspas-nature.org/)<br>
@@ -2505,6 +2612,8 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 #### Bouches-du-Rhônes (13) : 
+ 
+[Les Naturalistes de l’étoile](https://lesnaturalistesdeletoile.com/index.php/liens-utiles-botanique/)<br>
  
 [Société Linnéenne de Provence](https://www.linneenne-provence.org/)<br>
  
