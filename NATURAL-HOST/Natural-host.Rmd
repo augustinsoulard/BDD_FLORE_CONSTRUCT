@@ -42,6 +42,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [OpenObs](https://openobs.mnhn.fr/)<br>
  
+<br>
+
+#### Phytosociologie : 
+ 
+[JUICE](https://www.sci.muni.cz/botany/juice/?idm%3D10)<br>
+ 
 
  
  ------------------------------- 
@@ -118,11 +124,15 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-### Mondial 
- 
-[Biodiversity library](https://www.biodiversitylibrary.org/)<br>
+### Mondiale 
  
 [GBIF](https://www.gbif.org/)<br>
+ 
+<br>
+
+#### Général : 
+ 
+[IdigBio](https://www.idigbio.org/)<br>
  
 <br>
 
@@ -257,6 +267,8 @@ knitr::opts_chunk$set(echo = TRUE)
 [Insectes-net](https://www.insectes-net.fr/index.htm)<br>
  
 [Monde des minuscules](https://mondedesminuscules.fr/)<br>
+ 
+[Outils Gretia](https://outils.gretia.org/)<br>
  
 <br>
 
@@ -394,7 +406,7 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-### Donnees 
+### Données 
  
 <br>
 
@@ -407,6 +419,10 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Général : 
  
 [Boite à outil – Le Plantoscope](https://leplantoscope.fr/2021/03/21/decouvrir-les-plantes-une-boite-a-outils/#:~:text=Le%20site%20Wikiphyto%2C%20qui%20recense%20les%20usages%20m%C3%A9dicinaux,anglais%2C%20la%20base%20de%20donn%C3%A9es%20de%20la%20FDA.)<br>
+ 
+[European Vegetation Survey](https://euroveg.org/eva-database/databases)<br>
+ 
+[FloraVeg.EU](https://floraveg.eu/download/)<br>
  
 <br>
 
@@ -433,6 +449,32 @@ knitr::opts_chunk$set(echo = TRUE)
 [Sysbio – Plante](http://sysbio.univ-lille1.fr/fiches/plantae)<br>
  
 [Tela-botanica](https://www.tela-botanica.org/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Mondiale 
+ 
+<br>
+
+#### Général : 
+ 
+[Plantes Botanique](https://www.plantes-botanique.org/)<br>
+ 
+[Plants of the world online](https://powo.science.kew.org/)<br>
+ 
+<br>
+
+#### Phylogénie : 
+ 
+[Angiosperm Phylogeny Website](https://www.mobot.org/MOBOT/Research/APweb/welcome.html)<br>
  
 
  
@@ -486,6 +528,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Biologie végétale – UCLouvain](https://biologievegetale.be/)<br>
  
+<br>
+
+#### Identification : 
+ 
+[Clef des sauvages de ma rue](https://vigienature.openkeys.science/sauvage/?state=[]&tab=keys)<br>
+ 
 
  
  ------------------------------- 
@@ -523,6 +571,8 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Orobanchaceae : 
  
 [Clef Xper 3 des Orobanchaceae des Bouches-du-Rhône](https://www.xper3.fr/xper3GeneratedFiles/publish/identification/-4433262835638514473/mkey.html)<br>
+ 
+[Index of Orobanchaceae](https://www.farmalierganes.com/Otrospdf/publica/Orobanchaceae%20Index.htm)<br>
  
 <br>
 
@@ -564,11 +614,9 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Plante botanique](https://www.plantes-botanique.org/)<br>
  
-[Plants of the world online](http://www.plantsoftheworldonline.org/)<br>
- 
 [PNR - flore](http://www.reunion-parcnational.fr/fr/des-connaissances/la-flore)<br>
  
-[Quelle est cette plante](https://quelle-est-cette-fleur.com/)<br>
+[Quelle est cette fleur](https://quelle-est-cette-fleur.com/)<br>
  
 [Quelle est cette plante](https://www.quelleestcetteplante.fr/)<br>
  
@@ -766,6 +814,30 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Forêt 
+ 
+<br>
+
+#### Général : 
+ 
+[Inventaire Forestier – IGN](https://inventaire-forestier.ign.fr/)<br>
+ 
+<br>
+
+#### Méditerranée : 
+ 
+[Forêt méditerranéenne](https://www.foret-mediterraneenne.org/fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### Général 
  
 [Habitats-naturels.info](http://habitats-naturels.info/)<br>
@@ -822,6 +894,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+#### Données : 
+ 
+[VegFrance](https://vegfrance.univ-rennes1.fr/)<br>
+ 
+<br>
+
 #### Outil : 
  
 [Florass par RoZo](http://florass.zoom-ecologue.com/index.php)<br>
@@ -860,9 +938,31 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Général 
  
+[Nature France](https://naturefrance.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Mondiale 
+ 
+<br>
+
+#### Général : 
+ 
+[Biodiversity library](https://www.biodiversitylibrary.org/)<br>
+ 
+[Catalogue of Life](https://www.catalogueoflife.org/)<br>
+ 
 [Encyclopedia of Life](https://eol.org/)<br>
  
-[Nature France](https://naturefrance.fr/)<br>
+[Encyclopedia of Life -  natural history](https://naturalhistory.si.edu/research/eol)<br>
  
 
  
@@ -970,6 +1070,30 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Zenodo](https://zenodo.org)<br>
  
+<br>
+
+#### Prospection : 
+ 
+[OpenBiodiv](https://openbiodiv.net/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Mondiale 
+ 
+<br>
+
+#### Général : 
+ 
+[Plazi - Biodiversity Literature Repository](https://plazi.org/blr/)<br>
+ 
 
  
  ------------------------------- 
@@ -995,6 +1119,20 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 ## Données  {.tabset .tabset-fade}
+ 
+<br>
+
+### Annotation 
+ 
+[Pensoft Annotator](https://annotator.pensoft.net/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
@@ -1141,6 +1279,12 @@ knitr::opts_chunk$set(echo = TRUE)
 [Risques naturels (PPR)](http://www.risquesnaturels.re/)<br>
  
 [Sandre Eau France](https://www.sandre.eaufrance.fr/atlas/srv/fre/catalog.search#/home)<br>
+ 
+<br>
+
+#### Données : 
+ 
+[Geonature](https://geonature.fr/)<br>
  
 
  
@@ -1448,6 +1592,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Général : 
  
+[IDAO](https://idao.cirad.fr/)<br>
+ 
 [Identificationkey](https://identificationkey.fr/)<br>
  
 
@@ -1561,6 +1707,28 @@ knitr::opts_chunk$set(echo = TRUE)
 [Biodiversité Wallonie](http://biodiversite.wallonie.be/fr/accueil.html?IDC=6)<br>
  
 [L’herbier en image – Belgique](https://www.herbierimages.be/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Maroc  {.tabset .tabset-fade}
+ 
+<br>
+
+### Flore 
+ 
+<br>
+
+#### Général : 
+ 
+[Floramaroccana](https://www.floramaroccana.fr/presentation.html)<br>
  
 
  
@@ -1732,6 +1900,24 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+## Haut-de-france  {.tabset .tabset-fade}
+ 
+<br>
+
+### EEE 
+ 
+[Hauts-de-France – Espèces Exotiques Envahissantes](https://eee.drealnpdc.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ## Ile-de-France  {.tabset .tabset-fade}
  
 <br>
@@ -1808,6 +1994,30 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Habitats 
+ 
+<br>
+
+#### Forêt : 
+ 
+[Forêt Aquitaine](http://www.foret-aquitaine.com/som.htm)<br>
+ 
+<br>
+
+#### Général : 
+ 
+[Habitats naturels Poitou-Charentes](http://www.poitou-charentes-nature.asso.fr/guide-des-habitats-naturels-du-poitou-charentes/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ## Occitanie  {.tabset .tabset-fade}
  
 <br>
@@ -1867,20 +2077,6 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 ## Réunion  {.tabset .tabset-fade}
- 
-<br>
-
-### Associations 
- 
-[Nature Océan Indien](https://natureoceanindien.org/)<br>
- 
-
- 
- ------------------------------- 
- 
-
- 
- ------------------------------- 
  
 <br>
 
@@ -2082,6 +2278,30 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Structure 
+ 
+<br>
+
+#### Associations : 
+ 
+[Nature Océan Indien](https://natureoceanindien.org/)<br>
+ 
+<br>
+
+#### Public : 
+ 
+[DEAL](https://www.reunion.developpement-durable.gouv.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ## Suisse  {.tabset .tabset-fade}
  
 <br>
@@ -2162,6 +2382,24 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### AuRa 
+ 
+<br>
+
+#### Génréral : 
+ 
+[Frane](https://www.frane-auvergne-environnement.fr/index.php)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### Bretagne 
  
 <br>
@@ -2237,6 +2475,8 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 #### Général : 
+ 
+[CARABES – Association](https://carabes.fr/)<br>
  
 [Natureo](https://www.natureo.org/)<br>
  
@@ -2318,6 +2558,8 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [CBN Alpin](https://www.cbn-alpin.fr/)<br>
  
+[CBN Bailleul – Digitale2](https://www.cbnbl.org/digitale2)<br>
+ 
 
  
  ------------------------------- 
@@ -2335,6 +2577,24 @@ knitr::opts_chunk$set(echo = TRUE)
 ### PACA 
  
 [DREAL PACA](https://www.paca.developpement-durable.gouv.fr/thematiques-r3158.html)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Etablissement Public Local  {.tabset .tabset-fade}
+ 
+<br>
+
+### Bretagne 
+ 
+[A la rencontre de la lande](https://www.alarencontredelalande.fr/)<br>
  
 
  
