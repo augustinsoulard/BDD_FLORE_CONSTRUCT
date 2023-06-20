@@ -34,6 +34,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Général : 
  
+[Manuel Geonature](https://docs.geonature.fr/index.html)<br>
+ 
 [Inaturalist](https://www.inaturalist.org/)<br>
  
 <br>
@@ -299,6 +301,12 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Orthoptères : 
  
 [ASCETE](https://ascete.org/)<br>
+ 
+<br>
+
+#### Pollinisateurs : 
+ 
+[SPIPOLL](https://vigienature.openkeys.science/spipoll/?state=[]&tab=keys)<br>
  
 
  
@@ -2427,6 +2435,26 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 ## Code de l'environnement  {.tabset .tabset-fade}
+ 
+<br>
+
+### Espèce protégée 
+ 
+<br>
+
+#### Flore : 
+ 
+[Flore protégée en France](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000865328/)<br>
+ 
+[Flore protégées en PACA](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000548796)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
  
 <br>
 
