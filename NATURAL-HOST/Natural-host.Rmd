@@ -34,9 +34,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Général : 
  
-[Manuel Geonature](https://docs.geonature.fr/index.html)<br>
- 
 [Inaturalist](https://www.inaturalist.org/)<br>
+ 
+[Manuel Geonature](https://docs.geonature.fr/index.html)<br>
  
 <br>
 
@@ -289,6 +289,14 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Larves : 
  
 [Animateur nature – Larves d’insectes](https://www.animateur-nature.com/guide-invertebres/les-larves.php)<br>
+ 
+<br>
+
+#### Lépidoptères : 
+ 
+[Artemisiae](https://oreina.org/artemisiae/index.php)<br>
+ 
+[Lepinet](https://www.lepinet.fr/)<br>
  
 <br>
 
@@ -668,6 +676,10 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Botaplus](https://www.botaplus.fr/botaflore/bonnier_mt.htm)<br>
  
+[Flore de France – SFO – Section Nord](https://www.orchid-nord.com/Flore-France/flore.html)<br>
+ 
+[Genialvegetal](https://www.genialvegetal.net/)<br>
+ 
 [Société Botanique de France](https://societebotaniquedefrance.fr/)<br>
  
 <br>
@@ -1046,6 +1058,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Général : 
  
+[DeterminObs](https://determinobs.fr/#/)<br>
+ 
 [Participae](http://www.particitae.upmc.fr/fr/index.html)<br>
  
 [Vigienature](https://www.vigienature.fr/)<br>
@@ -1233,6 +1247,24 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Indicateur 
  
 [Indicateurs ONB](https://naturefrance.fr/indicateurs?fulltext=)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### SIG 
+ 
+<br>
+
+#### Cadastre : 
+ 
+[Data.gouv – Cadastre](https://files.data.gouv.fr/cadastre/)<br>
  
 
  
@@ -1634,9 +1666,9 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Chat GPT](https://chat.openai.com/)<br>
  
-[You](https://you.com/)<br>
+[Futurpedia](https://www.futurepedia.io/)<br>
  
-[NA](https://www.futurepedia.io/)<br>
+[You](https://you.com/)<br>
  
 
  
@@ -1894,13 +1926,35 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-## Auvergne  {.tabset .tabset-fade}
+## AuRa  {.tabset .tabset-fade}
  
 <br>
 
-### Blog 
+### Auvergne 
+ 
+<br>
+
+#### Blog : 
  
 [Photos araignées, insectes, fleurs](https://auvergne-fleurs-insectes-araignees.blogspot.com/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Isère 
+ 
+<br>
+
+#### Flore : 
+ 
+[Gentiana – Flore](http://www.gentiana.org/site:flore)<br>
  
 
  
@@ -1919,6 +1973,24 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Faune 
  
 [Faune Bretagne – LPO](https://www.faune-bretagne.org/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Flore 
+ 
+<br>
+
+#### Zone humide : 
+ 
+[Fiches des espèces indicatrices de zones humides – Bretagne](https://www.cbnbrest.fr/observatoire-plantes/boite-a-outils/fiches-especes/fiches-especes-zones-humides)<br>
  
 
  
@@ -1951,6 +2023,24 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Général 
  
 [FNE Centre-Val-de-Loire](https://fne-centrevaldeloire.org/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Habitats 
+ 
+<br>
+
+#### Général : 
+ 
+[Le Guide des végétations de la région Centre-Val de Loire](https://www.calameo.com/books/007342895b432934eab2b)<br>
  
 
  
@@ -2102,27 +2192,29 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-### Flore 
- 
-<br>
-
-#### Pyrénées : 
- 
-[La flore des pyrénées](http://www.lafloredespyrenees.fr/pagefamille.html)<br>
- 
-
- 
- ------------------------------- 
- 
-
- 
- ------------------------------- 
- 
-<br>
-
 ### Général 
  
 [Afleurdepau](http://www.afleurdepau.com/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Pyrénée 
+ 
+<br>
+
+#### Flore : 
+ 
+[Atlas flora Pyrenaea](http://www.atlasflorapyrenaea.eu/src/home/index.php?idma=0)<br>
+ 
+[La flore des pyrénées](http://www.lafloredespyrenees.fr/pagefamille.html)<br>
  
 
  
@@ -2163,6 +2255,26 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Flore : 
  
 [Etienne Aspord](http://etienne.aspord.free.fr/)<br>
+ 
+<br>
+
+#### Général : 
+ 
+[Livret Nature de Provence](https://www.departement13.fr/le-departement/les-publications/les-livrets-nature-de-provence/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Sortie nature 
+ 
+[Chemin de la biodiversité](https://www.cheminsdelabiodiversite.com/)<br>
  
 
  
@@ -2386,30 +2498,6 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-### Structure 
- 
-<br>
-
-#### Associations : 
- 
-[Nature Océan Indien](https://natureoceanindien.org/)<br>
- 
-<br>
-
-#### Public : 
- 
-[DEAL](https://www.reunion.developpement-durable.gouv.fr/)<br>
- 
-
- 
- ------------------------------- 
- 
-
- 
- ------------------------------- 
- 
-<br>
-
 ## Suisse  {.tabset .tabset-fade}
  
 <br>
@@ -2593,6 +2681,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Général 
  
+[Bivouac Naturaliste](https://bivouacnaturaliste.com/)<br>
+ 
 [Carte Naturalistes des Terres](https://naturalistesdesterres.gogocarto.fr/map#/carte/@47.36,2.65,5z?cat=all)<br>
  
 
@@ -2639,11 +2729,47 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+#### Alpes-Maritimes (06) : 
+ 
+[Asnatnic](https://asnatnic.fr/)<br>
+ 
+<br>
+
 #### Bouches-du-Rhônes (13) : 
  
 [Les Naturalistes de l’étoile](https://lesnaturalistesdeletoile.com/index.php/liens-utiles-botanique/)<br>
  
 [Société Linnéenne de Provence](https://www.linneenne-provence.org/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Associations  {.tabset .tabset-fade}
+ 
+<br>
+
+### Réunion 
+ 
+[Nature Océan Indien](https://natureoceanindien.org/)<br>
+ 
+<br>
+
+#### Général : 
+ 
+[SREPEN](https://srepen.re/)<br>
+ 
+<br>
+
+#### Recherche : 
+ 
+[ARBRE](https://arb-reunion.fr/)<br>
  
 
  
@@ -2732,6 +2858,20 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Bretagne 
  
 [A la rencontre de la lande](https://www.alarencontredelalande.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Réunion 
+ 
+[DEAL](https://www.reunion.developpement-durable.gouv.fr/)<br>
  
 
  
