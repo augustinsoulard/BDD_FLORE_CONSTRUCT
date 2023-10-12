@@ -1,15 +1,17 @@
-# setwd("C:/Users/MTDA-029/Documents/GitHub/BDD_FLORE_CONSTRUCT/NATURAL-HOST")
-setwd("C:/Users/Augustin Soulard/Documents/Programmation/Github/BDD_FLORE_CONSTRUCT/NATURAL-HOST")
+# Choisir le dossier de travail
+WD = dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(WD)
 
-library(xlsx)
-library(assertthat)
-if(!require("rmarkdown")){
-  install.packages("rmarkdown",repos="http://cran.irsn.fr")
+# Chargement des librairies
+
+if(!require("readxl")){install.packages("readxl")} ; library("readxl")
+if(!require("assertthat")){install.packages("assertthat")} ; library("assertthat")
+if(!require("rmarkdown")){install.packages("rmarkdown",repos="http://cran.irsn.fr")
   require("rmarkdown")}
-  
-library(knitr)
-# ASO = xlsx::read.xlsx("Natural-host.xlsx",1)
-ASO = xlsx::read.xlsx("Natural-host.xlsx",1)
+if(!require("knitr")){install.packages("knitr")} ; library("knitr")  
+
+ASO <- read_excel("Natural-host.xlsx")
+#ASO = read.xlsx("Natural-host.xlsx",1)
 
 ASO = data.frame(lapply(ASO,factor))
 DPlink = function (x){

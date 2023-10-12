@@ -26,9 +26,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Flore : 
  
-[KIT BOTA QFIELD ](https://github.com/augustinsoulard/KIT_BOTA_QFIELD)<br>
+[KIT BOTA QFIELD](https://github.com/augustinsoulard/KIT_BOTA_QFIELD)<br>
  
-[PlantNet ](https://plantnet.org/en/)<br>
+[PlantNet](https://plantnet.org/en/)<br>
  
 <br>
 
@@ -51,6 +51,12 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Phytosociologie : 
  
 [JUICE](https://www.sci.muni.cz/botany/juice/?idm%3D10)<br>
+ 
+<br>
+
+#### Saisie : 
+ 
+[Scout – Application de saisie](https://www.cerema.fr/fr/centre-ressources/applications/appli-mobile-scout)<br>
  
 
  
@@ -666,6 +672,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+#### Bioindication : 
+ 
+[Frayssinet – Plantes bioindicatrices](https://frayssinet.fr/fr/news/les-plantes-bio-indicatrices/)<br>
+ 
+<br>
+
 #### Biologie végétale : 
  
 [Sorbonne – Ressources numériques](https://rnbio.sorbonne-universite.fr/bio-veg_accueil)<br>
@@ -679,6 +691,8 @@ knitr::opts_chunk$set(echo = TRUE)
 [Flore de France – SFO – Section Nord](https://www.orchid-nord.com/Flore-France/flore.html)<br>
  
 [Genialvegetal](https://www.genialvegetal.net/)<br>
+ 
+[Les carnets nature de Jessica](https://jessica-joachim.com/)<br>
  
 [Société Botanique de France](https://societebotaniquedefrance.fr/)<br>
  
@@ -786,7 +800,7 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Lichen Go – Tela-botanica](https://www.tela-botanica.org/projets/lichens-go/)<br>
  
-[Lichen Go – Xper ](http://lichengo.identificationkey.org/mkey.html)<br>
+[Lichen Go – Xper](http://lichengo.identificationkey.org/mkey.html)<br>
  
 [lichenologue.org](http://www.lichenologue.org/fr/index.php)<br>
  
@@ -882,6 +896,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+#### Association : 
+ 
+[Canopée](https://www.canopee.ong/)<br>
+ 
+<br>
+
 #### Général : 
  
 [Inventaire Forestier – IGN](https://inventaire-forestier.ign.fr/)<br>
@@ -966,7 +986,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Outil : 
  
+[Espèces – Phytosociologie – Alexandre Hallez](https://alexandrehallez.shinyapps.io/Espece_phytosociologie/)<br>
+ 
 [Florass par RoZo](http://florass.zoom-ecologue.com/index.php)<br>
+ 
+[Habitats – Phytosociologie – Alexandre Hallez](https://alexandrehallez.shinyapps.io/Habitats_Phytosociologie/)<br>
  
 <br>
 
@@ -1117,6 +1141,44 @@ knitr::opts_chunk$set(echo = TRUE)
 [Prélocalisation nationale des zones humides (2023)](https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique/mh/zh)<br>
  
 [Réseau zone humide](http://sig.reseau-zones-humides.org/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+# Gestion {.tabset .tabset-fade .tabset-pills} 
+ 
+<br>
+
+## Agrosystème  {.tabset .tabset-fade}
+ 
+<br>
+
+### Agroforesterie 
+ 
+[AFAC Agroforesterie](https://afac-agroforesteries.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Restauration  {.tabset .tabset-fade}
+ 
+<br>
+
+### Pépinière 
+ 
+[Végétal local](https://www.vegetal-local.fr/)<br>
  
 
  
@@ -1530,6 +1592,24 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### BDD 
+ 
+<br>
+
+#### SQL : 
+ 
+[R, Databases & SQL - Aravind Hebbali](https://rdbsql.rsquaredacademy.com/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### Cartographie 
  
 [Rcarto](https://rcarto.github.io/carto_avec_r/)<br>
@@ -1600,6 +1680,12 @@ knitr::opts_chunk$set(echo = TRUE)
  
 [Markdown tables](https://www.tablesgenerator.com/markdown_tables)<br>
  
+<br>
+
+#### Site web : 
+ 
+[Package Distil](https://rstudio.github.io/distill/)<br>
+ 
 
  
  ------------------------------- 
@@ -1617,6 +1703,12 @@ knitr::opts_chunk$set(echo = TRUE)
 [Shiny Rstudio tutorial](https://shiny.rstudio.com/tutorial/)<br>
  
 [Shiny sur serveur AWS](https://www.charlesbordet.com/fr/guide-shiny-aws/#a-quoi-s-attendre-dans-ce-guide)<br>
+ 
+<br>
+
+#### Tutoriel : 
+ 
+[R Shiny App Turotial - Abhinav Agrawal](https://www.youtube.com/playlist?list=PL6wLL_RojB5xNOhe2OTSd-DPkMLVY9DfB)<br>
  
 
  
@@ -1778,6 +1870,24 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Présentation 
+ 
+<br>
+
+#### Diapositive : 
+ 
+[Tome – Diapo avec une IA](https://tome.app/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### Youtube 
  
 <br>
@@ -1819,6 +1929,28 @@ knitr::opts_chunk$set(echo = TRUE)
 [Biodiversité Wallonie](http://biodiversite.wallonie.be/fr/accueil.html?IDC=6)<br>
  
 [L’herbier en image – Belgique](https://www.herbierimages.be/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Brésil  {.tabset .tabset-fade}
+ 
+<br>
+
+### Flore 
+ 
+<br>
+
+#### Général : 
+ 
+[Flora De Santa Catarina](https://floradesantacatarina.wordpress.com/)<br>
  
 
  
@@ -2736,6 +2868,10 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 #### Bouches-du-Rhônes (13) : 
+ 
+[Les Amis du Muséum d’Histoire Naturelle d’Aix-en-Provence](https://amismuseumaixenprovence.fr/)<br>
+ 
+[Les naturalistes de l’Etoile](https://lesnaturalistesdeletoile.com/index.php/liens-utiles-botanique/)<br>
  
 [Les Naturalistes de l’étoile](https://lesnaturalistesdeletoile.com/index.php/liens-utiles-botanique/)<br>
  
