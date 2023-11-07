@@ -34,7 +34,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Général : 
  
-[Inaturalist](https://www.inaturalist.org/)<br>
+[INaturalist](https://www.inaturalist.org/)<br>
  
 [Manuel Geonature](https://docs.geonature.fr/index.html)<br>
  
@@ -119,6 +119,8 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 #### Général : 
+ 
+[Site web Augustin Soulard](https://augustinsoulard.github.io/webpage/index.html)<br>
  
 [Wild World](https://u-g-o.jimdofree.com/)<br>
  
@@ -850,22 +852,6 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-### Carhab 
- 
-[CarHab INPN](https://inpn.mnhn.fr/programme/carhab)<br>
- 
-[Visualisateur Carhab](https://inpn.mnhn.fr/viewer-carto/CarHab/)<br>
- 
-
- 
- ------------------------------- 
- 
-
- 
- ------------------------------- 
- 
-<br>
-
 ### Eau douce 
  
 <br>
@@ -997,6 +983,28 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Référentiel : 
  
 [eVeg](https://www.e-veg.net/accueil)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Végétation potentielle 
+ 
+[Carte végétation potentielle de la France](https://cdn.obs-mip.fr/cartevegetation/Carte-vegetation-potentielle.html)<br>
+ 
+<br>
+
+#### Carhab : 
+ 
+[CarHab INPN](https://inpn.mnhn.fr/programme/carhab)<br>
+ 
+[Visualisateur Carhab](https://inpn.mnhn.fr/viewer-carto/CarHab/)<br>
  
 
  
@@ -1279,6 +1287,24 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Général : 
  
 [Bibliothèque virtuelle numérique – Faune de France](https://faunedefrance.org/bibliotheque-virtuelle-numerique/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+### Forêt 
+ 
+<br>
+
+#### Général : 
+ 
+[DataIFN - données de l'inventaire forestier](https://inventaire-forestier.ign.fr/dataifn/)<br>
  
 
  
@@ -2404,6 +2430,24 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Outils 
+ 
+<br>
+
+#### Général : 
+ 
+[SILENE expert](https://expert.silene.eu/#/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ### Sortie nature 
  
 [Chemin de la biodiversité](https://www.cheminsdelabiodiversite.com/)<br>
@@ -2706,6 +2750,20 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
+### Zone humide 
+ 
+[Définition des zones humides](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019151510)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
 ## Risques  {.tabset .tabset-fade}
  
 <br>
@@ -2734,7 +2792,7 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-#### Génréral : 
+#### Général : 
  
 [Frane](https://www.frane-auvergne-environnement.fr/index.php)<br>
  
@@ -2790,7 +2848,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Ecologues : 
  
-[Association Française Interprofessionnelle des Ecologues
+[Association Française Interprofessionnelle des Ecologues
 ](https://afie-asso.fr/?article1)<br>
  
 <br>
@@ -2884,10 +2942,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
  
  ------------------------------- 
- 
-<br>
-
-## Associations  {.tabset .tabset-fade}
  
 <br>
 
@@ -3030,6 +3084,28 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Bouches-du-Rhônes (13) : 
  
 [La Tour du Valat](https://tourduvalat.centredoc.fr/)<br>
+ 
+
+ 
+ ------------------------------- 
+ 
+
+ 
+ ------------------------------- 
+ 
+<br>
+
+## Union professionnel  {.tabset .tabset-fade}
+ 
+<br>
+
+### Génie écologique 
+ 
+<br>
+
+#### France : 
+ 
+[UPGE - Union Professionnelle du Génie Ecologique](https://www.genie-ecologique.fr/)<br>
  
 
  
