@@ -2,11 +2,11 @@
 title: "Natural-host v0.3"
 date: "`r Sys.Date()`"
 output:
-  html_document: 
-    toc: TRUE
-    toc_float: TRUE
+  flexdashboard::flex_dashboard:
     theme: flatly
-    highlight: zenburn
+    navbar:
+      - { title: "About", href: "https://example.com/about" }
+
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -16,11 +16,13 @@ knitr::opts_chunk$set(echo = TRUE)
  
 <br>
 
-## Donnees naturalistes  {.tabset .tabset-fade}
+
+## Donnees naturalistes  
  
 <br>
 
-### Application 
+
+### Application {.tabset}
  
 <br>
 
@@ -3054,7 +3056,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Ecologues : 
  
-[Association Française Interprofessionnelle des Ecologues
+[Association Française Interprofessionnelle des Ecologues
+
 ](https://afie-asso.fr/?article1)<br>
  
 <br>
