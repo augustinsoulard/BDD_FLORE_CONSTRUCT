@@ -134,9 +134,11 @@ write.csv(TAXREFv17_FLORE_FR,file = "TAXREFv17_FLORE_FR.csv",fileEncoding = "UTF
 write.csv(TAXREFv17_FLORE_FR_SYN,file = "TAXREFv17_FLORE_FR_SYN.csv",fileEncoding = "UTF-8")
 
 #Preparation de TAXAQgis
-TAXAQgis = TAXREFv17_FLORE_FR
-TAXAQgis = TAXAQgis[,-c(1:4,6:10,12:15,17:20,22,23,25:41)]
-TAXAQgis <- TAXAQgis[c("CD_NOM","TRIGRAMME","LB_NOM","NOM_VERN","FAMILLE","FR")]
+TAXAQgis = TAXREFv17_FLORE_FR %>%
+  filter(!FR %in% c("A","W","X","Y","Z","Q")) %>% 
+  select(CD_NOM,LB_NOM) %>%
+  arrange(LB_NOM)
 
 #Enregistrement de TAXAQgis en CSV
-write.csv(TAXAQgis,file = "TAXAQgis.csv",row.names = F,fileEncoding = "UTF-8")
+write.csv(TAXAQgis,file = "TAXAQgis.csv",row.names = F,
+          fileEncoding = "UTF-8")
