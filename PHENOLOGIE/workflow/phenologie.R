@@ -12,6 +12,7 @@ if(!require("tidyverse")){install.packages("tidyverse")} ; library("tidyverse")
 Method_enjeu_PACAv2_0 <- read_excel("../../../ENJEU_FLORE/ENJEU_PACA_AUGUSTIN_SOULARD/Method_enjeu_PACAv2.0.xlsx", 
                                     sheet = "Tableau_general")
 baseflor_bryoTAXREFv16 <- read.csv("../../TAXONOMIE/TAXREF-MATCH-BASEFLOR/baseflor_bryoTAXREFv16.csv", sep=";")
+
 #filtre des bases
 baseflor_bryoTAXREFv16 = baseflor_bryoTAXREFv16 %>% select(CD_NOM,CARACTERISATION_ECOLOGIQUE_.HABITAT_OPTIMAL.,floraison)
 Method_enjeu_PACAv2_0 = Method_enjeu_PACAv2_0 %>% select(CD_NOM,NOM_VALIDE,NOM_VERN,INTERET_PACA,PROTECTION_PACA)
