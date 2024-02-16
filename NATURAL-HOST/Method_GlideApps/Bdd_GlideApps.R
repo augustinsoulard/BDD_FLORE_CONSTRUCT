@@ -12,7 +12,8 @@ if(!require("reshape2")){install.packages("reshape2")} ; library("reshape2")
 
 BDD_FICHE_FLORE <- read_excel("../../BDD_FICHE_FLORE/BDD_FICHE_FLORE.xlsx",
                               sheet = "IMG")
-TAB_GEN_FULL_JOIN <- read.csv("../../../ENJEU_FLORE/ENJEU_PACA_AUGUSTIN_SOULARD/workflow/TAB_GEN_FULL_JOIN.csv")
+Method_enjeu_PACAv2.0 <- read_excel("../../../ENJEU_FLORE/ENJEU_PACA_AUGUSTIN_SOULARD/Method_enjeu_PACAv2.0.xlsx", 
+                                sheet = "Tableau_general")
 
 baseflor_bryoTAXREFv16 <- read.csv("../../TAXONOMIE/TAXREF-MATCH-BASEFLOR/baseflor_bryoTAXREFv16.csv", sep=";")
 
@@ -50,10 +51,10 @@ BDD_FICHE_FLORE_unique = BDD_FICHE_FLORE_reformed[!duplicated(BDD_FICHE_FLORE_re
 #Jointure des autres données
 #Préparation colonne de jointure
 BDD_FICHE_FLORE_unique$CD_NOM = as.character(BDD_FICHE_FLORE_unique$CD_NOM)
-TAB_GEN_FULL_JOIN$CD_NOM = as.character(TAB_GEN_FULL_JOIN$CD_NOM)
+Method_enjeu_PACAv2.0$CD_NOM = as.character(Method_enjeu_PACAv2.0$CD_NOM)
 baseflor_bryoTAXREFv16$CD_NOM = as.character(baseflor_bryoTAXREFv16$CD_NOM)
 #Jointure
-BDD_FICHE_FLORE_join_T = left_join(BDD_FICHE_FLORE_unique,TAB_GEN_FULL_JOIN,by="CD_NOM")
+BDD_FICHE_FLORE_join_T = left_join(BDD_FICHE_FLORE_unique,Method_enjeu_PACAv2.0,by="CD_NOM")
 BDD_FICHE_FLORE_join_TB = left_join(BDD_FICHE_FLORE_join_T,baseflor_bryoTAXREFv16,by="CD_NOM")
 
 #Remise en valeur unique
@@ -78,7 +79,9 @@ BDD_FICHE_FLORE_join_TB = BDD_FICHE_FLORE_join_TB %>% select(
   LRR,
   ZNIEFF,
   ENJEU_CBN,
-  Indicatrice.ZH,
+  `Indicatrice ZH`,
+  PROTECTION_PACA,
+  INTERET_PACA,
   CARACTERISATION_ECOLOGIQUE = CARACTERISATION_ECOLOGIQUE_.HABITAT_OPTIMAL.,
   INDICATION_PHYTOSOCIOLOGIQUE = INDICATION_PHYTOSOCIOLOGIQUE_CARACTERISTIQUE,
   CHOROLOGIE,
