@@ -38,8 +38,8 @@ BDD_FICHE_FLORE_reformed <- BDD_FICHE_FLORE %>%
   group_by(CD_NOM) %>%
   mutate(
     # Pour une deuxième image
-    PATH_IMG_2 = ifelse(n() == 2, lead(PATH_IMG), NA),
-    TEXTE_LEGEND_IMG_2 = ifelse(n() == 2, lead(TEXTE_LEGEND_IMG), NA),
+    PATH_IMG_2 = ifelse(n() == 2 |n() == 3, lead(PATH_IMG), NA),
+    TEXTE_LEGEND_IMG_2 = ifelse(n() == 2|n() == 3, lead(TEXTE_LEGEND_IMG), NA),
   
     # Pour une troisième image
     PATH_IMG_3 = ifelse(n() == 3, lead(PATH_IMG,2), NA),
@@ -105,7 +105,11 @@ BDD_FICHE_FLORE_join_TB = BDD_FICHE_FLORE_join_TB %>% select(
   Matière_organique
 )
 
+# Filtrer uniquement les espèces à enjeu ou patrimoniale
+BDD_FICHE_FLORE_ENJEU = BDD_FICHE_FLORE_join_TB %>% filter(!PROTECTION_PACA %in% "-" | INTERET_PACA %in% c("MODERE","FORT","TRES FORT","MAJEUR"))
+
+
 #Enregistrement du tableau a integrer à GlideApp
-write.csv(BDD_FICHE_FLORE_join_TB,file = "BDD_Flore_patri_PACA.csv",row.names = F,fileEncoding = "UTF-8",na="")
+write.csv(BDD_FICHE_FLORE_ENJEU,file = "BDD_Flore_patri_PACA.csv",row.names = F,fileEncoding = "UTF-8",na="")
 
 

@@ -29,8 +29,12 @@ baseflor_bryo$NOM_SIMPLE = str_split(baseflor_bryo$NOM_SIMPLE, "[:blank:]$", n =
 #Boucle de matching
 for (i in 1:nrow(baseflor_bryo)){
   cat(i,"\n")
+  reference = FALSE # Remise de  reference en faux
     tryCatch({
       t = rt_taxa_search(sciname = baseflor_bryo$NOM_SIMPLE[i],version = "16.0")
+      if(any(t$id != t$referenceId)){
+        reference = TRUE # Garder en mémoire que la taxon de base n'est pas celui de référence
+      }
       if(ncol(t)>1){
         #Supression des synonymes
         if(nrow(t[t$id==t$referenceId,])>=1){t = t[t$id==t$referenceId,]}
@@ -40,6 +44,10 @@ for (i in 1:nrow(baseflor_bryo)){
         if(str_detect(baseflor_bryo$NOM_SIMPLE[i],"[:blank:]x[:blank:]")==FALSE){
           t = t[!str_detect(t$scientificName,"[:blank:]x[:blank:]"),]
         }
+        if(reference == TRUE){
+          t = rt_taxa_search(id = t$referenceId[1],version = "16.0")
+        }
+        
         #Attribution des valeurs de CD_NOM et NOM_VALIDE
         baseflor_bryo$CD_NOM[i] = t$referenceId[1]
         baseflor_bryo$NOM_VALIDE[i] = t$scientificName[1]}else{
@@ -54,8 +62,31 @@ for (i in 1:nrow(baseflor_bryo)){
 
 }
 
+
 # Verification des différences
 difference = baseflor_bryo[baseflor_bryo$NOM_VALIDE!=baseflor_bryo$NOM_SIMPLE,]
+view(difference)
 
+######## Prise en compte du correctif de baseflore_bryo
+# Chargement du correctif
+Correctif_baseflor_bryo <- read_excel("Correctif_baseflor_bryo.xlsx")
+
+#Boucle de correction
+for(i in 1:nrow(Correctif_baseflor_bryo)){
+  if(nrow(baseflor_bryo[baseflor_bryo$CD_NOM == Correctif_baseflor_bryo$CD_NOM[i],])>=1){
+    #remplacement des colonnes pour els epsèces concernées
+    baseflor_bryo[baseflor_bryo$CD_NOM == Correctif_baseflor_bryo$CD_NOM[i],]$floraison = Correctif_baseflor_bryo$floraison[i]
+    baseflor_bryo[baseflor_bryo$CD_NOM == Correctif_baseflor_bryo$CD_NOM[i],]$CARACTERISATION_ECOLOGIQUE_.HABITAT_OPTIMAL. =
+      Correctif_baseflor_bryo$CARACTERISATION_ECOLOGIQUE_.HABITAT_OPTIMAL.[i]
+    baseflor_bryo[baseflor_bryo$CD_NOM == Correctif_baseflor_bryo$CD_NOM[i],]$INDICATION_PHYTOSOCIOLOGIQUE_CARACTERISTIQUE = 
+      Correctif_baseflor_bryo$INDICATION_PHYTOSOCIOLOGIQUE_CARACTERISTIQUE[i]
+##############COMPLETERRRRRRR
+  }
+  
+}
+
+
+
+# Enregistrer le fichier final
 write.csv2(baseflor_bryo,"baseflor_bryoTAXREFv16.csv",row.names = F,fileEncoding = "UTF-8",na="")
 
