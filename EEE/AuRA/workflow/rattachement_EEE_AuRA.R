@@ -180,3 +180,9 @@ EEE_AuRA = EEE_AuRA %>% select(CD_NOM,NOM_VALIDE=NOM_VALIDE.x,LAVERGNE_AUVERGNE,
 
 #Sauvegarde du fiche EEE AuRA final
 write.csv(EEE_AuRA,"EEE_AuRA.csv",row.names = F,fileEncoding = "UTF-8",na="")
+
+
+
+
+
+
