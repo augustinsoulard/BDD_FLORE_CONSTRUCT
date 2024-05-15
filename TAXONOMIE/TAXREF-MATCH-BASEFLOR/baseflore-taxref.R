@@ -11,7 +11,8 @@ setwd(WD)
 if(!require("readxl")){install.packages("readxl")} ; library("readxl")
 if(!require("xlsx")){install.packages("xlsx")} ; library("xlsx")
 if(!require("tidyverse")){install.packages("tidyverse")} ; library("tidyverse")
-if(!require("rtaxref")){remotes::install_github("Rekyt/rtaxref")} ; library("rtaxref")
+if(!require("remotes")){install.packages("remotes")} ; library("remotes")
+if(!require("rtaxref")){install_github("Rekyt/rtaxref")} ; library("rtaxref")
 
 #Chargement de baseflor_bryo
 baseflor_bryo <- read.csv("../CATMINAT/baseflor_bryo.csv",h=T)
