@@ -32,7 +32,7 @@ for (i in 1:nrow(baseflor_bryo)){
   cat(i,"\n")
   reference = FALSE # Remise de  reference en faux
     tryCatch({
-      t = rt_taxa_search(sciname = baseflor_bryo$NOM_SIMPLE[i],version = "16.0")
+      t = rt_taxa_search(sciname = baseflor_bryo$NOM_SIMPLE[i],version = "17.0")
       if(any(t$id != t$referenceId)){
         reference = TRUE # Garder en mémoire que la taxon de base n'est pas celui de référence
       }
@@ -46,7 +46,7 @@ for (i in 1:nrow(baseflor_bryo)){
           t = t[!str_detect(t$scientificName,"[:blank:]x[:blank:]"),]
         }
         if(reference == TRUE){
-          t = rt_taxa_search(id = t$referenceId[1],version = "16.0")
+          t = rt_taxa_search(id = t$referenceId[1],version = "17.0")
         }
         
         #Attribution des valeurs de CD_NOM et NOM_VALIDE
@@ -89,5 +89,5 @@ for(i in 1:nrow(Correctif_baseflor_bryo)){
 
 
 # Enregistrer le fichier final
-write.csv2(baseflor_bryo,"baseflor_bryoTAXREFv16.csv",row.names = F,fileEncoding = "UTF-8",na="")
+write.csv2(baseflor_bryo,"baseflor_bryoTAXREFv17.csv",row.names = F,fileEncoding = "UTF-8",na="")
 

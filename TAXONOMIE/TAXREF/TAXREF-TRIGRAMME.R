@@ -9,13 +9,15 @@ if (!require("tidyverse")) {install.packages("tidyverse")}+library("tidyverse")
 
 
 #Chargement de TAXREF
-TAXREFv17 <- read.delim("TAXREFv17.txt", encoding="UTF-8")
+TAXREF <- read.delim("TAXREFv18.txt", encoding="UTF-8")
+# TAXREF <- read.delim("C:/Users/MTDA-029/Downloads/TAXREFv18.txt", encoding="UTF-8")
 
 
-TAXREFv17_FLORE_FR = TAXREFv17[TAXREFv17$REGNE == "Plantae" & TAXREFv17$FR!="" & TAXREFv17$CD_REF == TAXREFv17$CD_NOM,]
-TAXREFv17_FLORE_FR_SYN = TAXREFv17[TAXREFv17$REGNE == "Plantae" & TAXREFv17$FR!="",]
 
-TAXREF = TAXREFv17_FLORE_FR
+TAXREF_FLORE_FR = TAXREF[TAXREF$REGNE == "Plantae" & TAXREF$FR!="" & TAXREF$CD_REF == TAXREF$CD_NOM,]
+TAXREF_FLORE_FR_SYN = TAXREF[TAXREFv17$REGNE == "Plantae" & TAXREF$FR!="",]
+
+TAXREF = TAXREF_FLORE_FR
 # TAXREF = TAXREF[duplicated(TAXREF$CD_REF)==FALSE,] #Delete duplicated taxa
 # row.names(TAXREF)= c(1:nrow(TAXREF))
 
@@ -120,24 +122,29 @@ for(i in 1:nrow(JOIN_GENRE_SAISIE)){
   cat(i,"\n")
 }
 # Retirer les colonnes de travail
-TAXREFv17_FLORE_FR = JOIN_GENRE_SAISIE
-colnames(TAXREFv17_FLORE_FR)[48] = "TRIGRAMME"
-TAXREFv17_FLORE_FR$x = NULL
-TAXREFv17_FLORE_FR$ESP = NULL
-TAXREFv17_FLORE_FR$var = NULL
-TAXREFv17_FLORE_FR$f = NULL
-TAXREFv17_FLORE_FR$subsp = NULL
-TAXREFv17_FLORE_FR$ESPBRUT = NULL
+TAXREF_FLORE_FR = JOIN_GENRE_SAISIE
+colnames(TAXREF_FLORE_FR)[48] = "TRIGRAMME"
+TAXREF_FLORE_FR$x = NULL
+TAXREF_FLORE_FR$ESP = NULL
+TAXREF_FLORE_FR$var = NULL
+TAXREF_FLORE_FR$f = NULL
+TAXREF_FLORE_FR$subsp = NULL
+TAXREF_FLORE_FR$ESPBRUT = NULL
+
+# On récupère les trigrammes dans la bonne colonne
+TAXREF_FLORE_FR$TRIGRAMME = TAXREF_FLORE_FR$ESP2
+TAXREF_FLORE_FR$ESP2 = NULL
 
 # Enregistrer les nouveaux TAXREF en Csv
-write.csv(TAXREFv17_FLORE_FR,file = "TAXREFv17_FLORE_FR.csv",fileEncoding = "UTF-8")
-write.csv(TAXREFv17_FLORE_FR_SYN,file = "TAXREFv17_FLORE_FR_SYN.csv",fileEncoding = "UTF-8")
+write.csv(TAXREF_FLORE_FR,file = "TAXREFv18_FLORE_FR.csv",fileEncoding = "UTF-8")
+write.csv(TAXREF_FLORE_FR_SYN,file = "TAXREFv18_FLORE_FR_SYN.csv",fileEncoding = "UTF-8")
 
 #Preparation de TAXAQgis
-TAXAQgis = TAXREFv17_FLORE_FR %>%
+TAXAQgis = TAXREF_FLORE_FR %>%
   filter(!FR %in% c("A","W","X","Y","Z","Q")) %>% 
-  select(CD_NOM,LB_NOM) %>%
   arrange(LB_NOM)
+
+TAXAQgis <- TAXAQgis[, c("CD_NOM", "LB_NOM","TRIGRAMME")]
 
 #Enregistrement de TAXAQgis en CSV
 write.csv(TAXAQgis,file = "TAXAQgis.csv",row.names = F,
