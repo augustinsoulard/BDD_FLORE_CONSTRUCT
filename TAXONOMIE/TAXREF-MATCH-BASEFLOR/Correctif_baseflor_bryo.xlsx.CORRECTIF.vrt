@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="Correctif_baseflor_bryo">
+        <SrcDataSource relativeToVRT="1">Correctif_baseflor_bryo.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>CORRECTIF</SrcLayer>
+        <Field name="CD_NOM" src="CD_NOM" type="Integer"/>
+        <Field name="LB_NOM" src="LB_NOM" type="String"/>
+        <Field name="floraison" src="floraison" type="String"/>
+        <Field name="CARACTERISATION_ECOLOGIQUE_.HABITAT_OPTIMAL." src="CARACTERISATION_ECOLOGIQUE_.HABITAT_OPTIMAL." type="String"/>
+        <Field name="INDICATION_PHYTOSOCIOLOGIQUE_CARACTERISTIQUE" src="INDICATION_PHYTOSOCIOLOGIQUE_CARACTERISTIQUE" type="String"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

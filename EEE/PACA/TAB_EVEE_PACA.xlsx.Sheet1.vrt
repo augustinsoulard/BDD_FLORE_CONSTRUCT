@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="TAB_EVEE_PACA-Sheet1">
+        <SrcDataSource relativeToVRT="1">TAB_EVEE_PACA.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="CD_NOM" src="CD_NOM" type="String"/>
+        <Field name="famille" src="famille" type="String"/>
+        <Field name="nom_vern_invmmed" src="nom_vern_invmmed" type="String"/>
+        <Field name="nom_taxon_invmed" src="nom_taxon_invmed" type="String"/>
+        <Field name="NOM_VALIDE" src="NOM_VALIDE" type="String"/>
+        <Field name="date_intro" src="date_intro" type="String"/>
+        <Field name="origine" src="origine" type="String"/>
+        <Field name="milieux" src="milieux" type="String"/>
+        <Field name="categorie_paca" src="categorie_paca" type="String"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
