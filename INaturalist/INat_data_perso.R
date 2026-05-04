@@ -4,7 +4,8 @@ if(!require("tidyverse")){install.packages("tidyverse")} ; library("tidyverse")
 
 
 # Récupérer 10000 observations de l'utilisateur augustinsoulard
-observations <- get_inat_obs_user(username="augustinsoulard",maxresults = 10000) 
+observations <- get_inat_obs_user(username="augustinsoulard",maxresults = 10000)
+observations = read.csv("I:/Mon Drive/2_PROJETS/30_MAMP_CartoHabitats_Nord_Etang_Berre 2025/CARTO/inat/inat_tot_mamp_nrd_etg_berre_2025.csv")
 write.csv2(observations,"D:/INaturalist/INaturalist_Augustin_Soulard.csv",row.names = F,fileEncoding = 'UTF-8')
 
 
@@ -13,12 +14,12 @@ write.csv2(observations,"D:/INaturalist/INaturalist_Augustin_Soulard.csv",row.na
 
 
 ### Télécharger les photos
-for (i in 6665:nrow(observations)){
+for (i in 209:nrow(observations)){
   cat(i,'/',nrow(observations),"\n")
   photos = get_inat_obs_id(observations$id[i])[["observation_photos"]][["photo"]]
   for(j in 1:nrow(photos)){
     url <- str_replace(photos$large_url[j], "large.jpg", "original.jpg")
-    download.file(url, destfile = paste0("D:/INaturalist/IMG/",observations$scientific_name[i],"_",observations$id[i],"-",photos$id[j], ".jpg"), mode = "wb")
+    download.file(url, destfile = paste0("D:/INaturalist/IMG2/",observations$scientific_name[i],"_",observations$id[i],"-",photos$id[j], ".jpg"), mode = "wb")
   }
 }
 
